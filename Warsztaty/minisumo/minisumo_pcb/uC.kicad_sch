@@ -3378,7 +3378,7 @@
 		)
 		(uuid "ca955e90-221e-4d2f-a7f4-3219478559bf")
 	)
-	(hierarchical_label "DIR2_1"
+	(hierarchical_label "DIR1_2"
 		(shape input)
 		(at 64.77 50.8 0)
 		(fields_autoplaced yes)

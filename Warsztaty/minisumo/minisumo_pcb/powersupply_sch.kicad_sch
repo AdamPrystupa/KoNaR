@@ -1783,6 +1783,18 @@
 		)
 		(uuid "d39ee739-d5d6-45fd-9eaa-662e7cd1f54d")
 	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 74.93 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95f1a672-073c-4a07-bb62-c52bee3b6362")
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 115.57 29.21 0)

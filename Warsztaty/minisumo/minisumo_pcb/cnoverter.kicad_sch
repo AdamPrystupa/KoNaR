@@ -938,13 +938,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "d2f8baac-d8fd-4d18-aba3-886e19c52d3c")
+			(uuid "218374ef-fc1a-45d2-98ef-b244c2e5a3af")
 		)
 		(pin "1"
-			(uuid "5f6c2320-b94e-4a0d-9331-c9cd221ee4f6")
+			(uuid "9aa4eac1-c454-4312-8dfe-86e5e6715dd3")
 		)
 		(pin "3"
-			(uuid "43114b56-a13e-422d-951c-8056f170ae0d")
+			(uuid "a4e9665e-b71e-4021-a96a-128af18b4602")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -954,6 +954,38 @@
 				)
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1d38a7b5-9036-4fb3-a1aa-d93f8a4ddf73"
 					(reference "Q3")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/96a8a3ea-db3e-4871-8a04-83c68ef86c2d"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/8cd9c070-14c0-4d67-9ed3-96dd987b1ea4"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/74db48b8-e6c6-4c11-9219-cd68702ff773"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/d765f8c2-0064-4acf-88c0-43e21c79c377"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1f5a7b51-e11d-44b7-ad05-612eab760f9d"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/911a772f-3029-4454-bc72-1e673c6ed7c5"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/9c9dd9d7-fd5c-4476-b90f-89bef41bc651"
+					(reference "Q10")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/ba7563d2-b1fc-4885-991b-1557492867f5"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -1014,7 +1046,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9b1975d-08b5-4462-852c-2d9372ad5337")
+			(uuid "27685eb5-031a-4050-b41c-b7ac02c675fa")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1024,6 +1056,38 @@
 				)
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1d38a7b5-9036-4fb3-a1aa-d93f8a4ddf73"
 					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/96a8a3ea-db3e-4871-8a04-83c68ef86c2d"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/8cd9c070-14c0-4d67-9ed3-96dd987b1ea4"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/74db48b8-e6c6-4c11-9219-cd68702ff773"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/d765f8c2-0064-4acf-88c0-43e21c79c377"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1f5a7b51-e11d-44b7-ad05-612eab760f9d"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/911a772f-3029-4454-bc72-1e673c6ed7c5"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/9c9dd9d7-fd5c-4476-b90f-89bef41bc651"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/ba7563d2-b1fc-4885-991b-1557492867f5"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -1084,7 +1148,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "19313d02-019e-4d13-9190-c167c4b47bae")
+			(uuid "5c901c31-3409-44db-a2c4-3231d0a09f4a")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1094,6 +1158,38 @@
 				)
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1d38a7b5-9036-4fb3-a1aa-d93f8a4ddf73"
 					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/96a8a3ea-db3e-4871-8a04-83c68ef86c2d"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/8cd9c070-14c0-4d67-9ed3-96dd987b1ea4"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/74db48b8-e6c6-4c11-9219-cd68702ff773"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/d765f8c2-0064-4acf-88c0-43e21c79c377"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1f5a7b51-e11d-44b7-ad05-612eab760f9d"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/911a772f-3029-4454-bc72-1e673c6ed7c5"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/9c9dd9d7-fd5c-4476-b90f-89bef41bc651"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/ba7563d2-b1fc-4885-991b-1557492867f5"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -1155,10 +1251,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "97b79b20-4dff-4c30-97ee-7634b0461f26")
+			(uuid "9e1231f6-77d9-492b-9a7c-9d8bf8eb61fe")
 		)
 		(pin "2"
-			(uuid "d06b7a59-e180-4b2c-9c9e-b79bd2642d8c")
+			(uuid "a62e551c-9a12-492c-a44d-c11a9a811d60")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1168,6 +1264,38 @@
 				)
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1d38a7b5-9036-4fb3-a1aa-d93f8a4ddf73"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/96a8a3ea-db3e-4871-8a04-83c68ef86c2d"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/8cd9c070-14c0-4d67-9ed3-96dd987b1ea4"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/74db48b8-e6c6-4c11-9219-cd68702ff773"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/d765f8c2-0064-4acf-88c0-43e21c79c377"
+					(reference "R43")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1f5a7b51-e11d-44b7-ad05-612eab760f9d"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/911a772f-3029-4454-bc72-1e673c6ed7c5"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/9c9dd9d7-fd5c-4476-b90f-89bef41bc651"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/ba7563d2-b1fc-4885-991b-1557492867f5"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -1229,10 +1357,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa9beae2-65ec-464d-b25e-aada92268824")
+			(uuid "1cd02f2d-a4e9-4f0c-96e8-3448bcc02fd0")
 		)
 		(pin "2"
-			(uuid "b67ef756-41c1-4327-ad9f-cb7054fc68e7")
+			(uuid "ff788e8d-b34e-46c8-b6b8-64bacfde1332")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1242,6 +1370,38 @@
 				)
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1d38a7b5-9036-4fb3-a1aa-d93f8a4ddf73"
 					(reference "R6")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/96a8a3ea-db3e-4871-8a04-83c68ef86c2d"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/8cd9c070-14c0-4d67-9ed3-96dd987b1ea4"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/74db48b8-e6c6-4c11-9219-cd68702ff773"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/d765f8c2-0064-4acf-88c0-43e21c79c377"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1f5a7b51-e11d-44b7-ad05-612eab760f9d"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/911a772f-3029-4454-bc72-1e673c6ed7c5"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/9c9dd9d7-fd5c-4476-b90f-89bef41bc651"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/ba7563d2-b1fc-4885-991b-1557492867f5"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -1303,10 +1463,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b5dc2c4a-570b-4300-af5b-074f19d21da0")
+			(uuid "ad6d80bf-e872-49d3-a86d-52b40dde22ba")
 		)
 		(pin "1"
-			(uuid "d2ae4f1b-b4c9-4292-b4d8-729de8a6d56a")
+			(uuid "76ececa7-ad48-47e1-9d0d-9882eaf82110")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1316,6 +1476,38 @@
 				)
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1d38a7b5-9036-4fb3-a1aa-d93f8a4ddf73"
 					(reference "D4")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/96a8a3ea-db3e-4871-8a04-83c68ef86c2d"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/8cd9c070-14c0-4d67-9ed3-96dd987b1ea4"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/74db48b8-e6c6-4c11-9219-cd68702ff773"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/d765f8c2-0064-4acf-88c0-43e21c79c377"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1f5a7b51-e11d-44b7-ad05-612eab760f9d"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/911a772f-3029-4454-bc72-1e673c6ed7c5"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/9c9dd9d7-fd5c-4476-b90f-89bef41bc651"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/ba7563d2-b1fc-4885-991b-1557492867f5"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -1377,10 +1569,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c8e3192-ee4c-4594-97dc-23980f2403e6")
+			(uuid "68abb90a-c729-42dd-a516-4876c28dc0fa")
 		)
 		(pin "2"
-			(uuid "6d72cab5-3cb4-4653-857b-53e9c8e993c8")
+			(uuid "a8a85da7-dcdc-4a5d-8ba4-e3e68b332e48")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1390,6 +1582,38 @@
 				)
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1d38a7b5-9036-4fb3-a1aa-d93f8a4ddf73"
 					(reference "R14")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/96a8a3ea-db3e-4871-8a04-83c68ef86c2d"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/8cd9c070-14c0-4d67-9ed3-96dd987b1ea4"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/74db48b8-e6c6-4c11-9219-cd68702ff773"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/d765f8c2-0064-4acf-88c0-43e21c79c377"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1f5a7b51-e11d-44b7-ad05-612eab760f9d"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/911a772f-3029-4454-bc72-1e673c6ed7c5"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/9c9dd9d7-fd5c-4476-b90f-89bef41bc651"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/ba7563d2-b1fc-4885-991b-1557492867f5"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -1450,7 +1674,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c528e9de-b1de-45bc-a42b-311037d99e4a")
+			(uuid "06a542d9-5946-4a2e-8f2b-4e499fd33982")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1460,6 +1684,38 @@
 				)
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1d38a7b5-9036-4fb3-a1aa-d93f8a4ddf73"
 					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/96a8a3ea-db3e-4871-8a04-83c68ef86c2d"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/8cd9c070-14c0-4d67-9ed3-96dd987b1ea4"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/74db48b8-e6c6-4c11-9219-cd68702ff773"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/d765f8c2-0064-4acf-88c0-43e21c79c377"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/1f5a7b51-e11d-44b7-ad05-612eab760f9d"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/911a772f-3029-4454-bc72-1e673c6ed7c5"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/9c9dd9d7-fd5c-4476-b90f-89bef41bc651"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/ba7563d2-b1fc-4885-991b-1557492867f5"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
