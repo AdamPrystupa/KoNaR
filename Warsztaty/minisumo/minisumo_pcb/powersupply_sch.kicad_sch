@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "1ed5ac3d-a2a9-496d-8697-d9c03b30aff6")
+	(uuid "c89f33ab-f518-41e2-8e54-16e4c8f22453")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -730,6 +730,319 @@
 				)
 			)
 		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1068,332 +1381,368 @@
 		)
 	)
 	(junction
-		(at 91.44 39.37)
+		(at 92.71 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00ad3b9c-e929-46ad-a536-77ba8ca10184")
+		(uuid "029595f3-09be-44f8-ac35-f59e44339996")
 	)
 	(junction
-		(at 91.44 30.48)
+		(at 52.07 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15eab5ba-5e17-4a32-99ae-589474bf0e8b")
+		(uuid "0f761957-5b70-48e6-a78a-845393a90e76")
 	)
 	(junction
-		(at 73.66 39.37)
+		(at 63.5 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "35b3a2ab-3332-4b72-9125-ecbb57af0d99")
+		(uuid "1affeb6c-bb27-4439-91cd-de41adbb2acf")
 	)
 	(junction
-		(at 73.66 30.48)
+		(at 74.93 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "35d8634e-6322-4d98-adb1-e2107d442180")
+		(uuid "1df4ae4f-8728-42a3-9a0b-3a4c34c0e583")
 	)
 	(junction
-		(at 50.8 39.37)
+		(at 92.71 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "362b43d1-baeb-486a-98fa-19f60dff9487")
+		(uuid "8be9397b-fe08-4b46-a91f-df3202c25e35")
 	)
 	(junction
-		(at 62.23 39.37)
+		(at 104.14 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "555bdf24-84d9-40a0-9db1-f8496fdf9443")
+		(uuid "a26a08b4-06c1-4e87-9acd-d546782a7ee6")
 	)
 	(junction
-		(at 50.8 30.48)
+		(at 40.64 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55fae982-3eab-4b52-afcb-eaf5d9818093")
+		(uuid "a6fc1c27-874c-428d-b405-635b8568c7bf")
 	)
 	(junction
-		(at 114.3 30.48)
+		(at 52.07 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d27e69b-1b66-4fb0-b760-032e586b6d97")
+		(uuid "aad7e447-5efe-4031-a06a-04e59defaa60")
 	)
 	(junction
-		(at 102.87 39.37)
+		(at 115.57 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9129ce8-f316-405c-ae55-f6646b8b5185")
+		(uuid "cda66bcb-c554-45d0-94da-889cc68f8199")
+	)
+	(junction
+		(at 74.93 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ced83b8d-0b02-4da0-9dcb-3b3407a4084f")
 	)
 	(wire
 		(pts
-			(xy 69.85 30.48) (xy 73.66 30.48)
+			(xy 29.21 36.83) (xy 27.94 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c121984-e96d-4ab0-baa0-93da29e20be6")
+		(uuid "0b51087a-ec89-4793-b36e-c5b3dc72948c")
 	)
 	(wire
 		(pts
-			(xy 50.8 27.94) (xy 50.8 30.48)
+			(xy 74.93 31.75) (xy 92.71 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fdfdd38-fc8d-426c-a9c0-d55add88ff39")
+		(uuid "0bd860a6-c982-4156-9dab-7c8210fe92f8")
 	)
 	(wire
 		(pts
-			(xy 62.23 38.1) (xy 62.23 39.37)
+			(xy 52.07 31.75) (xy 55.88 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c5058a9-2cfa-4ded-9c68-2a6a84eda294")
+		(uuid "14a83127-216b-4e08-97e3-734f9c0246b0")
 	)
 	(wire
 		(pts
-			(xy 36.83 33.02) (xy 36.83 30.48)
+			(xy 74.93 38.1) (xy 74.93 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41f65612-f587-4273-a37b-c409529a9660")
+		(uuid "1a72df58-3040-4518-bf9b-ca16bc5aeda3")
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 73.66 39.37)
+			(xy 92.71 31.75) (xy 96.52 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fb1b102-64ff-4d08-af77-657c8639d38a")
+		(uuid "2463bb3a-d487-41c2-a86a-b567a9a0ddf8")
 	)
 	(wire
 		(pts
-			(xy 26.67 33.02) (xy 36.83 33.02)
+			(xy 40.64 39.37) (xy 40.64 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c01fc98-4ac9-4e42-9f3a-c82a1ec05eeb")
+		(uuid "2b2a1ad0-f252-4898-aea8-513b952422f4")
 	)
 	(wire
 		(pts
-			(xy 50.8 30.48) (xy 54.61 30.48)
+			(xy 40.64 40.64) (xy 29.21 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c49c012-bde3-43e9-bb27-ec2018a556cd")
+		(uuid "37d8e877-0189-4cca-8a06-845af1d1e424")
 	)
 	(wire
 		(pts
-			(xy 91.44 39.37) (xy 102.87 39.37)
+			(xy 92.71 40.64) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fd3de5a-4c8e-4b94-9782-96b6483394ab")
+		(uuid "415ef9f3-f736-42ea-837e-bd18390d4ed5")
 	)
 	(wire
 		(pts
-			(xy 91.44 38.1) (xy 91.44 39.37)
+			(xy 52.07 31.75) (xy 52.07 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "759d04a5-4b3c-4bb8-b5bd-ffc87e1697ec")
+		(uuid "4c070d67-266e-4699-bbee-409487e3ea74")
 	)
 	(wire
 		(pts
-			(xy 50.8 30.48) (xy 50.8 31.75)
+			(xy 111.76 31.75) (xy 115.57 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75f3d37f-b6fc-4582-8c97-84c759dc4782")
+		(uuid "5a3c83a3-c9ff-4be3-964e-be2f30e21e5c")
 	)
 	(wire
 		(pts
-			(xy 50.8 39.37) (xy 62.23 39.37)
+			(xy 29.21 31.75) (xy 35.56 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86abe44c-5cc0-42be-95be-fb0e50ad5f04")
+		(uuid "5c43a88d-19f8-464f-9257-a5ba288648dd")
 	)
 	(wire
 		(pts
-			(xy 114.3 27.94) (xy 114.3 30.48)
+			(xy 115.57 29.21) (xy 115.57 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9734a916-373d-4cb5-aff5-7bfe26a06a1a")
+		(uuid "5df068db-691e-40b2-921c-25c380fd953c")
 	)
 	(wire
 		(pts
-			(xy 114.3 38.1) (xy 114.3 39.37)
+			(xy 27.94 34.29) (xy 29.21 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99486f87-9a17-45b6-8cac-d0e7b5951bbd")
+		(uuid "65096830-f005-4945-9e71-dc02b59b37bf")
 	)
 	(wire
 		(pts
-			(xy 34.29 39.37) (xy 50.8 39.37)
+			(xy 115.57 39.37) (xy 115.57 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5b0ae85-5d70-4d5d-a894-d50335111280")
+		(uuid "95f8e80c-267c-4f90-9e76-6f1146da43e4")
 	)
 	(wire
 		(pts
-			(xy 73.66 30.48) (xy 73.66 31.75)
+			(xy 52.07 40.64) (xy 63.5 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a851ddde-0403-4543-bffb-d780d06df5f9")
+		(uuid "96296b12-f2f4-418b-b3f7-946bbfe5adb1")
 	)
 	(wire
 		(pts
-			(xy 50.8 36.83) (xy 50.8 39.37)
+			(xy 29.21 34.29) (xy 29.21 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b044d9e0-c5ca-4bf0-8a74-8c64bcded3ed")
+		(uuid "9bac405d-4d85-4889-b32e-63746908a019")
 	)
 	(wire
 		(pts
-			(xy 91.44 30.48) (xy 95.25 30.48)
+			(xy 74.93 31.75) (xy 74.93 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc76b5a7-e97b-443f-8ba6-2228bee449dc")
+		(uuid "9bfa017d-29ea-40a5-b785-bd3d6a0a7006")
 	)
 	(wire
 		(pts
-			(xy 26.67 35.56) (xy 34.29 35.56)
+			(xy 52.07 38.1) (xy 52.07 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfc6f19f-ca87-46e7-828a-a440ba4bf7e6")
+		(uuid "9e5fa894-111f-45e8-9005-ecf4f7c8fa5d")
 	)
 	(wire
 		(pts
-			(xy 102.87 38.1) (xy 102.87 39.37)
+			(xy 63.5 40.64) (xy 74.93 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfdb8ec6-1514-40b5-ac96-fdab6a205b8e")
+		(uuid "a689019f-49f9-4572-b57b-361932647ab9")
 	)
 	(wire
 		(pts
-			(xy 34.29 35.56) (xy 34.29 39.37)
+			(xy 29.21 40.64) (xy 29.21 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2243490-0299-4353-9664-314d1b996799")
+		(uuid "a8331491-037a-4dd2-bf91-ec72fc3ae05d")
 	)
 	(wire
 		(pts
-			(xy 73.66 30.48) (xy 91.44 30.48)
+			(xy 52.07 29.21) (xy 52.07 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3ff4266-d91d-44fd-8bee-b03564cfda9e")
+		(uuid "b7ebd633-8fc6-421d-98d7-638ce4b78595")
 	)
 	(wire
 		(pts
-			(xy 62.23 39.37) (xy 73.66 39.37)
+			(xy 104.14 39.37) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5fc45c6-5104-4eed-941b-6050680d72c5")
+		(uuid "be18e614-c6c2-4bd5-83dc-babae2f74fb4")
 	)
 	(wire
 		(pts
-			(xy 102.87 39.37) (xy 114.3 39.37)
+			(xy 63.5 39.37) (xy 63.5 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5291e49-eae7-41f6-a84e-a8e52a5da16a")
+		(uuid "cd9b49c6-d864-4047-b465-dd119f432be8")
 	)
 	(wire
 		(pts
-			(xy 73.66 39.37) (xy 91.44 39.37)
+			(xy 74.93 29.21) (xy 74.93 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6dc649f-5dd3-4516-a944-1b440239f8be")
+		(uuid "d36aa299-983d-40cd-a45c-ae5f4361a678")
 	)
 	(wire
 		(pts
-			(xy 36.83 30.48) (xy 50.8 30.48)
+			(xy 104.14 40.64) (xy 115.57 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e76deda2-0ec5-48fe-aaba-c1ad2ddee3b2")
+		(uuid "d71f7f94-1fc8-4648-b780-ce51f6daf6c7")
 	)
 	(wire
 		(pts
-			(xy 110.49 30.48) (xy 114.3 30.48)
+			(xy 45.72 31.75) (xy 52.07 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f03e8aec-135e-4fcc-adea-9e1b5bcc2ab9")
+		(uuid "dacf5e69-7564-43f6-989c-2fa48fbb0ab8")
 	)
 	(wire
 		(pts
-			(xy 73.66 27.94) (xy 73.66 30.48)
+			(xy 40.64 40.64) (xy 52.07 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f05924b9-9416-4f75-9e47-00823f31e0dc")
+		(uuid "de775b79-237e-4f2e-af5b-10c3cca73475")
+	)
+	(wire
+		(pts
+			(xy 92.71 39.37) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f187118f-519e-4dd9-964e-0b7bf68f07e3")
+	)
+	(wire
+		(pts
+			(xy 71.12 31.75) (xy 74.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2645ba3-c003-4aa2-a6fe-5e27832ff357")
+	)
+	(wire
+		(pts
+			(xy 74.93 40.64) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5052d3-d6c9-428b-a395-4160c640bcc5")
 	)
 	(rectangle
-		(start 12.7 13.97)
-		(end 133.35 49.53)
+		(start 13.97 15.24)
+		(end 134.62 50.8)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1402,670 +1751,50 @@
 		(fill
 			(type none)
 		)
-		(uuid cda570d2-73f2-48ef-93e3-4bd4fe78d373)
-	)
-	(text "Voltage regulator 3V3\n\n\n"
-		(exclude_from_sim no)
-		(at 105.156 22.352 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "17198f4c-583d-478d-bec1-4981db0d54b8")
+		(uuid ed2bfc79-a003-42b0-88e8-f8683b8bb483)
 	)
 	(text "Voltage regulator 5V\n\n"
 		(exclude_from_sim no)
-		(at 61.976 20.32 0)
+		(at 63.246 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "1fe6ec48-2be5-4d3e-8155-3a9728ea4cad")
+		(uuid "11b63379-3e72-4810-9aa8-fa4c5db53a65")
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 18.034 16.764 0)
+		(at 19.304 18.034 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "4f112c67-ef8e-4b75-b7e0-382457ec001a")
+		(uuid "72449b05-a7ff-491c-8882-7d2f04235e84")
 	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 50.8 34.29 0)
-		(unit 1)
+	(text "Voltage regulator 3V3\n\n\n"
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1269c3d1-ab38-4bd0-9f92-6a8c4287c792")
-		(property "Reference" "C7"
-			(at 53.34 32.4738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(at 106.426 23.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
-		(property "Value" "10u"
-			(at 53.34 35.0138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 50.8 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4804e8ad-0bf0-44b8-aa60-97cbe93b8241")
-		)
-		(pin "1"
-			(uuid "f11cc185-0ddf-43cd-8dc7-bbeaaa10d6b1")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM1117S-3.3")
-		(at 102.87 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "350dc76c-789e-4c41-98c4-574e494eca50")
-		(property "Reference" "U8"
-			(at 102.87 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1117S-3.3"
-			(at 102.87 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 102.87 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 102.87 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-263"
-			(at 102.87 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c49f5400-1a30-47a8-b269-4e860d60d371")
-		)
-		(pin "3"
-			(uuid "174ba1a1-befb-40e7-a314-0846f926b65e")
-		)
-		(pin "2"
-			(uuid "b9f08a37-001e-41f5-99c2-8e3ad2e150dc")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 73.66 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d31d425-1769-4c82-b95d-0b225550d4fc")
-		(property "Reference" "C8"
-			(at 76.2 32.4738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 76.2 35.0138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 73.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c41cdbd7-6af8-4ae2-abfd-28c2f8e43d10")
-		)
-		(pin "1"
-			(uuid "3ad79858-0dde-4d08-a218-57f7dccaa8de")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44943185-596e-4d32-a243-77cec2a0002f")
-		(property "Reference" "#PWR015"
-			(at 50.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "042343f1-8c1b-4b5a-aaa2-da2cf3e4215b")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 50.8 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8eb26315-f0ad-4f3c-8cf4-4bc060c71140")
-		(property "Reference" "#PWR014"
-			(at 50.8 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 50.8 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 50.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a0c619c-4acf-42bf-9f1a-20145a195234")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 91.44 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f4bdd1c-5871-4d1c-9fb1-d1eb89f992bd")
-		(property "Reference" "C13"
-			(at 86.614 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 86.614 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.4052 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a1e88ec-a8fb-4dfd-ae1a-ad60b79ba990")
-		)
-		(pin "2"
-			(uuid "d792b624-49b8-4e93-bd79-c44f7a04de03")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM1117S-5.0")
-		(at 62.23 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c316e075-1ce2-4d2e-8253-f012469041b7")
-		(property "Reference" "U3"
-			(at 62.23 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1117S-5.0"
-			(at 62.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-263"
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "824229c6-f871-4838-9de9-084e973cf0d5")
-		)
-		(pin "3"
-			(uuid "6bd0e95b-971f-4593-bb17-2a629b11ef79")
-		)
-		(pin "2"
-			(uuid "52250643-e602-4f9b-9d07-3745e5219cbc")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 114.3 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfb51d12-59ca-4dc5-a604-71312f19227e")
-		(property "Reference" "C14"
-			(at 116.84 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 114.554 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.2652 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 114.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22f5085a-0274-4142-9c93-2513ccbb0a52")
-		)
-		(pin "2"
-			(uuid "318b0477-abc7-482a-ba9c-0d33ef4fec17")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 21.59 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3c17520-f08d-4c6f-88b8-7a188d12fcb5")
-		(property "Reference" "J1"
-			(at 22.225 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 22.225 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 21.59 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f51590c-ef25-4ef9-ab49-752b4c5dd479")
-		)
-		(pin "1"
-			(uuid "34e4ce9c-5e21-46fd-9717-3d268fd61f3e")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d39ee739-d5d6-45fd-9eaa-662e7cd1f54d")
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 27.94 0)
+		(at 115.57 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e8600a6b-002e-4adc-8a42-f761a63736d8")
-		(property "Reference" "#PWR023"
-			(at 114.3 31.75 0)
+		(uuid "1c22fbe6-330f-496f-9155-138e489e9281")
+		(property "Reference" "#PWR020"
+			(at 115.57 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +1803,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 114.3 22.86 0)
+			(at 115.57 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,7 +1811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 27.94 0)
+			(at 115.57 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +1820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 27.94 0)
+			(at 115.57 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,7 +1829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 27.94 0)
+			(at 115.57 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,12 +1838,593 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5aa544c-40c5-46bf-8d71-6c9602d9c7d2")
+			(uuid "d01b5840-cd97-4a9b-8ab4-c5942a916978")
 		)
 		(instances
 			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "#PWR023")
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 52.07 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "370ebc77-3710-4932-8096-3f0ab0851fa8")
+		(property "Reference" "#PWR016"
+			(at 52.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 52.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 52.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "863de561-6b9f-4dc2-908f-06fe2d973017")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3aa052d9-dcd7-46cb-b09f-fd69de369ce2")
+		(property "Reference" "C11"
+			(at 87.884 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 87.884 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.6752 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "793f2103-c233-433e-9cd8-867ef886f64a")
+		)
+		(pin "2"
+			(uuid "a4fba28c-3ef0-4bef-9124-abdb1af675b3")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 74.93 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b1e7c21-847b-48d8-864a-925318de7f5c")
+		(property "Reference" "C10"
+			(at 77.47 33.7438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 77.47 36.2838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 74.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "caf640d3-f2a7-4605-bd58-5ac4e477f59b")
+		)
+		(pin "1"
+			(uuid "bb48975a-ff53-43fa-85e4-1e338f82dc9c")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70a4e696-b601-4143-bb0e-e50f7935d713")
+		(property "Reference" "C12"
+			(at 118.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 115.824 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.5352 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b3357f4-48fe-4a36-a1af-1a6f29648a5c")
+		)
+		(pin "2"
+			(uuid "cf97fa21-ef39-4fe8-8bfa-73e52df11b3f")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 40.64 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7386dd85-c94f-4002-bb65-c194aa3f76bc")
+		(property "Reference" "Q1"
+			(at 40.64 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 40.64 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 53.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 57.785 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a544ac87-7ab3-412d-bde7-e6057e10183b")
+		)
+		(pin "2"
+			(uuid "caad476f-8bd2-4802-8b3c-3ea0c2f384c3")
+		)
+		(pin "1"
+			(uuid "bea7ab42-2562-42b1-9462-d123825c59b1")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117S-3.3")
+		(at 104.14 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a254fa1-a969-4102-9aa8-1a9627bf1df7")
+		(property "Reference" "U9"
+			(at 104.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117S-3.3"
+			(at 104.14 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-263"
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a3eece6-4a1a-4345-baaa-7e6e217ffcbc")
+		)
+		(pin "3"
+			(uuid "d9c39d80-b605-4a94-867e-61bf85fc5da1")
+		)
+		(pin "2"
+			(uuid "7df014fc-7885-495b-b9dc-65317dc8c1bc")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 52.07 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0e728d1-3c0f-4a24-b8c7-93112f5dbfde")
+		(property "Reference" "C9"
+			(at 54.61 33.7438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 54.61 36.2838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7800e402-f736-4773-aa9e-60354a52aad4")
+		)
+		(pin "1"
+			(uuid "0f94c788-3cf4-469a-b414-57bd5cfaea8f")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 22.86 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7bf0b46-ab0c-49bd-bbad-0ba47e96f5af")
+		(property "Reference" "J2"
+			(at 23.495 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 23.495 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 22.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "216114b8-e6c5-4704-bd90-06a5ac7fa512")
+		)
+		(pin "1"
+			(uuid "91f80d49-8384-49ed-9267-857444b9d21d")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2122,16 +2432,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 73.66 27.94 0)
+		(at 74.93 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f33d8409-89ab-41a7-9835-637da855aa59")
-		(property "Reference" "#PWR017"
-			(at 73.66 31.75 0)
+		(uuid "d73eac78-dac8-4eef-95f7-bf40edc41d13")
+		(property "Reference" "#PWR019"
+			(at 74.93 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2450,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 73.66 22.86 0)
+			(at 74.93 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 27.94 0)
+			(at 74.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 27.94 0)
+			(at 74.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 73.66 27.94 0)
+			(at 74.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,12 +2485,149 @@
 			)
 		)
 		(pin "1"
-			(uuid "13a7185e-2ea1-434f-b274-1f652f820f10")
+			(uuid "5aea99a1-2c74-44de-b7a1-a267dea5ebf6")
 		)
 		(instances
 			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/e56e1d8d-7ce8-4755-ae82-c5d61cd21379"
-					(reference "#PWR017")
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaa2c4b2-04df-4575-b0db-3fd455423386")
+		(property "Reference" "#PWR018"
+			(at 52.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eb0b011-850d-47ae-b7ad-3419dd77d2cb")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117S-5.0")
+		(at 63.5 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec2ebdb8-9dad-46f2-b540-46b9f38ad974")
+		(property "Reference" "U7"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117S-5.0"
+			(at 63.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-263"
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8005749d-85b9-4a55-8177-7ea5190cddf1")
+		)
+		(pin "3"
+			(uuid "8ce4a557-adc7-4a63-a002-7b3e24690c8c")
+		)
+		(pin "2"
+			(uuid "a7f40cf8-083f-4ccc-b6e2-3983e2900146")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
+					(reference "U7")
 					(unit 1)
 				)
 			)

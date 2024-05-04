@@ -578,16 +578,16 @@
       "Root"
     ],
     [
+      "1d38a7b5-9036-4fb3-a1aa-d93f8a4ddf73",
+      "converter_SCL"
+    ],
+    [
       "2841fc75-29f5-4e06-b481-1d26a5df72c5",
       "uC"
     ],
     [
-      "e6557011-7944-4d9c-9423-d8ed9048d50e",
-      "line_sensor1"
-    ],
-    [
-      "1b636e34-2bbb-4798-b69a-022fcfe9c7cd",
-      "line_sensor2"
+      "59b0bb17-8e81-44d5-808a-81d9b31dde61",
+      "sensor2"
     ],
     [
       "d44754c4-1248-482d-a92b-4192f4f09fb1",
@@ -598,24 +598,36 @@
       "sensor1"
     ],
     [
-      "829bab74-0c36-4611-abf5-f08fc5a74084",
-      "sensor2"
+      "e2e15633-8dde-4add-b1e0-ff449194304b",
+      "sensor3"
     ],
     [
-      "aa42056f-135d-4a1f-b2e1-34b992836582",
-      "voltage_regulator5v"
+      "dad48793-a97b-4c5a-9413-b01e9a512fd2",
+      "converter_SDA"
     ],
     [
-      "e56e1d8d-7ce8-4755-ae82-c5d61cd21379",
-      "voltage_regulator3v3"
+      "58eb88b1-485d-48c7-98a0-3f1f875455f5",
+      "line_sensors"
+    ],
+    [
+      "3b10afc8-1359-44aa-adef-e5e9a7fb5399",
+      "connector"
+    ],
+    [
+      "fec592cb-397f-40c8-9127-e83f29739826",
+      "powersupply"
     ],
     [
       "6ae141c6-db4a-4bb1-a0f3-35ba0e4d6945",
       "motor_driver1"
     ],
     [
-      "82056242-a679-4440-97b3-a3e19565e920",
-      "motor_driver2"
+      "b8d919d3-78c3-4a57-ab4a-a567d8eddd6d",
+      "inverter"
+    ],
+    [
+      "f48fad68-5a7d-4ca2-b957-317f1b6f3632",
+      "sensor4"
     ]
   ],
   "text_variables": {}
