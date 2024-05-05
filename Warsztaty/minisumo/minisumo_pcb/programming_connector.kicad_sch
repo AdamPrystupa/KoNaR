@@ -519,6 +519,26 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 30.48) (xy 26.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c121b1-0e20-4359-9b07-6a6b84285b98")
+	)
+	(wire
+		(pts
+			(xy 26.67 30.48) (xy 26.67 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2d66d1-3ad5-443b-8e91-4bb5a0e4f5ef")
+	)
+	(wire
+		(pts
 			(xy 62.23 29.21) (xy 62.23 30.48)
 		)
 		(stroke
@@ -526,26 +546,6 @@
 			(type default)
 		)
 		(uuid "7083e4a4-b097-48fd-867d-ff7ce9e0bcea")
-	)
-	(wire
-		(pts
-			(xy 59.69 35.56) (xy 62.23 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d8fdbfa-2b42-4498-9a64-f4af7ee3f810")
-	)
-	(wire
-		(pts
-			(xy 62.23 35.56) (xy 62.23 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e160dba-5eb0-4216-93e2-9bb1ee9175f1")
 	)
 	(wire
 		(pts
@@ -600,6 +600,18 @@
 		)
 		(uuid "4025a19f-ec06-4d90-85b1-050c8ce39435")
 	)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 59.69 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "1b0f6ab6-e2b8-4e1f-9624-ad3097b9995d")
+	)
 	(hierarchical_label "SCK"
 		(shape input)
 		(at 33.02 33.02 180)
@@ -635,18 +647,6 @@
 			(justify left)
 		)
 		(uuid "afb7e018-bf58-44ab-b4b6-a101d18cfb54")
-	)
-	(hierarchical_label "MISO"
-		(shape input)
-		(at 34.29 30.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "f21f659b-086a-48a0-9698-63c91fdbf9b8")
 	)
 	(symbol
 		(lib_id "MTSW-103-23-F-D-230:MTSW-103-23-F-D-230")
@@ -841,16 +841,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 38.1 0)
+		(at 26.67 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4718a689-6106-4c54-9371-398bcfada0ef")
-		(property "Reference" "#PWR036"
-			(at 62.23 44.45 0)
+		(uuid "77328d4e-77e8-4d37-9fc8-80ddb4459d3a")
+		(property "Reference" "#PWR02"
+			(at 26.67 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 43.18 0)
+			(at 26.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -867,7 +867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 38.1 0)
+			(at 26.67 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,7 +876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 38.1 0)
+			(at 26.67 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 38.1 0)
+			(at 26.67 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,12 +894,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "37ec688c-3867-47b6-8d81-7e63fe9e53e7")
+			(uuid "419698ba-52ff-4034-92ab-13bbc459cffd")
 		)
 		(instances
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/d44754c4-1248-482d-a92b-4192f4f09fb1"
-					(reference "#PWR036")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

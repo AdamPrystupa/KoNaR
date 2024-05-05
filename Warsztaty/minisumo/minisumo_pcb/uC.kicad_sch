@@ -2424,16 +2424,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 105.41) (xy 113.03 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0858c1ed-6c5b-4d83-a5f5-b3f62a38e6ce")
-	)
-	(wire
-		(pts
 			(xy 92.71 52.07) (xy 92.71 57.15)
 		)
 		(stroke
@@ -2654,16 +2644,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 104.14) (xy 113.03 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c9c4a9-bd87-4899-8fc4-dfa769d6123d")
-	)
-	(wire
-		(pts
 			(xy 107.95 73.66) (xy 107.95 76.2)
 		)
 		(stroke
@@ -2754,16 +2734,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 110.49) (xy 113.03 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee2b032-4576-4c60-89d2-5613050db885")
-	)
-	(wire
-		(pts
 			(xy 74.93 33.02) (xy 78.74 33.02)
 		)
 		(stroke
@@ -2804,16 +2774,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 110.49) (xy 113.03 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8fc4228-9e14-49c4-aa6b-70972b1e8951")
-	)
-	(wire
-		(pts
 			(xy 62.23 50.8) (xy 64.77 50.8)
 		)
 		(stroke
@@ -2821,16 +2781,6 @@
 			(type default)
 		)
 		(uuid "adbc65d5-386e-4109-b696-e8bbd610c4dd")
-	)
-	(wire
-		(pts
-			(xy 110.49 107.95) (xy 111.76 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a19126-86ee-4b03-a1bb-b929bd89d121")
 	)
 	(wire
 		(pts
@@ -2964,16 +2914,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 110.49) (xy 85.09 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1a15ffc-7eaa-4f2b-b302-3f940beb2825")
-	)
-	(wire
-		(pts
 			(xy 67.31 68.58) (xy 67.31 69.85)
 		)
 		(stroke
@@ -3032,19 +2972,9 @@
 		)
 		(uuid "f0346838-a148-4939-b9ee-5dff350b669d")
 	)
-	(wire
-		(pts
-			(xy 83.82 107.95) (xy 85.09 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2bdf940-df3c-4947-929c-eb6efbec10ca")
-	)
 	(rectangle
 		(start 15.24 15.24)
-		(end 120.65 121.92)
+		(end 124.46 161.29)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3069,19 +2999,6 @@
 		(uuid 89844897-b1a8-4abd-8b15-44940cc0dd05)
 	)
 	(rectangle
-		(start 78.74 92.71)
-		(end 116.84 119.38)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 255 133 81 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 93e02def-1a33-4df6-9908-1fa0aadabd6e)
-	)
-	(rectangle
 		(start 87.63 36.83)
 		(end 116.84 62.23)
 		(stroke
@@ -3104,15 +3021,533 @@
 		)
 		(uuid "b2b77008-af06-4bbc-aa88-861148d49d33")
 	)
-	(text "Programming connector"
-		(exclude_from_sim no)
-		(at 91.186 95.504 0)
+	(global_label "+3V3"
+		(shape input)
+		(at 113.03 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "00d0a1ab-30e4-4124-8565-30ceec1358d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.8693 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(uuid "e0dc7c4c-d78b-483a-a7da-80f6eb4d390a")
+	)
+	(global_label "XSHUT_2"
+		(shape input)
+		(at 113.03 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "04428e02-b44f-48ef-a267-9fbb6f574d07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.7563 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XSHUT_4"
+		(shape input)
+		(at 113.03 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "069d6cd2-ef6f-4f53-9a3e-f8e48cf929d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.7563 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XSHUT_1"
+		(shape input)
+		(at 71.12 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "06b1aa46-32d4-4475-bc5d-e6f6e286172a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.8463 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 87.63 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "07ae9513-106c-45ed-8b93-21627bc34ed6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.5163 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 71.12 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "1f9a33ae-9ea1-4d33-abac-1ab6eb6a9a47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.0522 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 113.03 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "2d28604b-3f58-42ca-ae59-746a05892ccf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.9622 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 87.63 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "2d839354-a034-4335-ba7c-304c37695e48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.734 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 87.63 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "3e9ce22f-03e7-4e28-ae25-04bd04e43c60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.734 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 45.72 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "46802f99-0cc8-48ea-b164-e40f98f100cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.824 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO1_3"
+		(shape input)
+		(at 45.72 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "5def0917-4bb5-4add-9ea0-af21db610518")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.2114 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 71.12 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "6b9c8fe8-2f13-4c9d-b544-6f7ec443ab2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.9593 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XSHUT_3"
+		(shape input)
+		(at 71.12 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "6e30fd51-2cf7-4c79-b394-17640512bb04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.8463 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 87.63 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "8c274dc5-e6ce-4195-b6ba-bc7ce1395360")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.5163 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 71.12 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "93fb2470-276d-462d-84dd-607e3eb98b1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.0522 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO1_1"
+		(shape input)
+		(at 45.72 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "99734b99-f79d-4f1b-b90b-ef8c5f7ad332")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.2114 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO1_2"
+		(shape input)
+		(at 87.63 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "b6e3d6dd-8c71-4778-bd09-9c5e70be35b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.1214 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO1_4"
+		(shape input)
+		(at 87.63 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "bab067da-1e0e-4150-893c-258ba3219a80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.1214 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 45.72 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "c3d0004a-e2b3-40bc-9bed-3e79ce0bc148")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.6063 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 45.72 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "ca94fdc1-a230-49fe-a7b2-4efa00143df7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.824 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 71.12 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "d7f5535d-a588-4058-aeb9-f89e1f3d33f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.9593 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 45.72 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "ed82a2dc-9791-42e0-9d6e-6e1868f1e938")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.6063 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 113.03 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "f674060a-5438-43b8-b2fe-45938d826e6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.9622 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 113.03 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "f81f82a2-070c-4fb9-9832-3f3ed26df329")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.8693 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "GPIO1_2"
 		(shape input)
@@ -3212,18 +3647,6 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 111.76 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "3ed37808-9444-4dde-aac2-3ffa8c10f174")
-	)
-	(hierarchical_label "MOSI"
-		(shape input)
 		(at 30.48 48.26 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3282,18 +3705,6 @@
 		)
 		(uuid "6fad6cbd-77fc-4d65-9547-57b34c9aa49c")
 	)
-	(hierarchical_label "RST"
-		(shape input)
-		(at 83.82 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "761a3269-59e3-42e8-ad1e-1bdf4b89a412")
-	)
 	(hierarchical_label "GPIO1_4"
 		(shape input)
 		(at 31.75 71.12 180)
@@ -3317,18 +3728,6 @@
 			(justify right)
 		)
 		(uuid "8d92322b-2a3d-41f5-ad31-682b8c140b51")
-	)
-	(hierarchical_label "SCK"
-		(shape input)
-		(at 83.82 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "956c0a69-b383-4d29-bf9e-07a08a0d15a5")
 	)
 	(hierarchical_label "GPIO1_1"
 		(shape input)
@@ -3401,18 +3800,6 @@
 			(justify left)
 		)
 		(uuid "e4c69f01-f21d-4750-9fa2-ed3b5cd766a2")
-	)
-	(hierarchical_label "MISO"
-		(shape input)
-		(at 85.09 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "e586ee37-a4cd-49bf-a47d-83d801713e05")
 	)
 	(hierarchical_label "XTAL1"
 		(shape input)
@@ -3769,7 +4156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 91.44 78.74 0)
 			(effects
 				(font
@@ -3877,6 +4264,197 @@
 		)
 	)
 	(symbol
+		(lib_id "MTSW-103-23-F-D-230:MTSW-103-23-F-D-230")
+		(at 100.33 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "138f4342-3dd2-45b7-a396-d6198be22d0f")
+		(property "Reference" "SENS4"
+			(at 100.33 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MTSW-103-23-F-D-230"
+			(at 100.33 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MTSW-103-23-F-D-230:SAMTEC_MTSW-103-23-F-D-230"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCONN HEADER VERT 6POS 2.54MM\n"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MTSW-103-23-F-D-230/Samtec/view-part/?ref=eda"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MTSW-103-23-F-D-230/Samtec/view-part/?ref=snap"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MTSW-103-23-F-D-230"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "03"
+			(uuid "6ec93630-bc25-4480-b941-270b94e3e175")
+		)
+		(pin "04"
+			(uuid "87f8b7f3-7354-4eec-b4be-49aaf7376757")
+		)
+		(pin "01"
+			(uuid "9bdb18a1-d90d-426d-bdc0-c25c17ff0115")
+		)
+		(pin "05"
+			(uuid "1bb1810d-0e05-455c-800f-49c20033e93d")
+		)
+		(pin "06"
+			(uuid "1e12b961-877e-4d5d-adbe-6063f4080fe4")
+		)
+		(pin "02"
+			(uuid "4566e81a-b2a6-4cff-a623-8d0d6e228834")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
+					(reference "SENS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 74.93 68.58 180)
 		(unit 1)
@@ -3901,7 +4479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 74.93 68.58 0)
 			(effects
 				(font
@@ -3970,7 +4548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 71.12 30.48 0)
 			(effects
 				(font
@@ -4037,7 +4615,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 74.93 58.42 0)
 			(effects
 				(font
@@ -4107,7 +4685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -4176,7 +4754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 78.74 30.48 0)
 			(effects
 				(font
@@ -4591,7 +5169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 67.31 72.39 0)
 			(effects
 				(font
@@ -4628,6 +5206,197 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MTSW-103-23-F-D-230:MTSW-103-23-F-D-230")
+		(at 58.42 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53e45a8a-893b-4a33-9cf7-2b51160a9f1b")
+		(property "Reference" "SENS1"
+			(at 58.42 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MTSW-103-23-F-D-230"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MTSW-103-23-F-D-230:SAMTEC_MTSW-103-23-F-D-230"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCONN HEADER VERT 6POS 2.54MM\n"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MTSW-103-23-F-D-230/Samtec/view-part/?ref=eda"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MTSW-103-23-F-D-230/Samtec/view-part/?ref=snap"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MTSW-103-23-F-D-230"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "03"
+			(uuid "e4142fd4-f7cb-4ec3-8083-a884c4cfc0ca")
+		)
+		(pin "04"
+			(uuid "7829208c-09c6-476f-99a5-e1c55b6bc1ca")
+		)
+		(pin "01"
+			(uuid "8f7df2be-3a60-4ec8-800a-41b9b992b47e")
+		)
+		(pin "05"
+			(uuid "2d0a9c42-83f3-4324-830e-b40db2082fb3")
+		)
+		(pin "06"
+			(uuid "830dc557-730c-4e7a-accc-e40a0ded69e5")
+		)
+		(pin "02"
+			(uuid "28af919a-56d4-4f13-8288-f3a40ef86527")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
+					(reference "SENS1")
 					(unit 1)
 				)
 			)
@@ -4764,197 +5533,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MTSW-103-23-F-D-230:MTSW-103-23-F-D-230")
-		(at 97.79 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e6c72bb-893f-43dd-80cd-29657cd20762")
-		(property "Reference" "SPI2"
-			(at 97.79 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MTSW-103-23-F-D-230"
-			(at 97.79 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MTSW-103-23-F-D-230:SAMTEC_MTSW-103-23-F-D-230"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samtec"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nCONN HEADER VERT 6POS 2.54MM\n"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MTSW-103-23-F-D-230/Samtec/view-part/?ref=eda"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "R"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MTSW-103-23-F-D-230/Samtec/view-part/?ref=snap"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MTSW-103-23-F-D-230"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samtec"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "03"
-			(uuid "e8a1f540-5cd1-4394-9049-1c3672456bde")
-		)
-		(pin "04"
-			(uuid "03241b94-a966-480c-8b8f-5496508e3562")
-		)
-		(pin "01"
-			(uuid "04c37622-1b22-4b2c-9588-84ac430e5143")
-		)
-		(pin "05"
-			(uuid "102f720b-47ad-46c2-b1b0-a252b1cfa579")
-		)
-		(pin "06"
-			(uuid "732f0be5-a608-4ef5-aa48-a15c30f8216a")
-		)
-		(pin "02"
-			(uuid "f7a2ab48-80ab-4b2f-a081-641df7e2c255")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
-					(reference "SPI2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 74.93 73.66 0)
 		(unit 1)
@@ -5045,7 +5623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -5088,6 +5666,197 @@
 		)
 	)
 	(symbol
+		(lib_id "MTSW-103-23-F-D-230:MTSW-103-23-F-D-230")
+		(at 58.42 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7679096e-5bf3-482f-9645-9ebb21c06599")
+		(property "Reference" "SENS3"
+			(at 58.42 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MTSW-103-23-F-D-230"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MTSW-103-23-F-D-230:SAMTEC_MTSW-103-23-F-D-230"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCONN HEADER VERT 6POS 2.54MM\n"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MTSW-103-23-F-D-230/Samtec/view-part/?ref=eda"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MTSW-103-23-F-D-230/Samtec/view-part/?ref=snap"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MTSW-103-23-F-D-230"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "03"
+			(uuid "d616ce34-51fd-45b8-863d-7db050da0169")
+		)
+		(pin "04"
+			(uuid "6f28f7c0-8b3d-4d2f-8011-19cb7b598278")
+		)
+		(pin "01"
+			(uuid "aa80d21c-2e04-46b6-927b-ed92fa3091c2")
+		)
+		(pin "05"
+			(uuid "bba11ef2-f33f-4c78-b576-5d464afd6820")
+		)
+		(pin "06"
+			(uuid "79e10bcf-064f-4b3c-93c1-be3c68619191")
+		)
+		(pin "02"
+			(uuid "5e394599-61e8-46e2-bfeb-25cbef907160")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
+					(reference "SENS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 97.79 43.18 0)
 		(unit 1)
@@ -5112,7 +5881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 97.79 43.18 90)
 			(effects
 				(font
@@ -5221,17 +5990,24 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 113.03 104.14 0)
+		(lib_id "MTSW-103-23-F-D-230:MTSW-103-23-F-D-230")
+		(at 100.33 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7ad7ca0-7ef4-47b1-b327-0169d33d0ede")
-		(property "Reference" "#PWR02"
-			(at 113.03 107.95 0)
+		(uuid "aef13e3e-449f-4adf-88c8-6a32f1755ecc")
+		(property "Reference" "SENS2"
+			(at 100.33 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MTSW-103-23-F-D-230"
+			(at 100.33 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,25 +6015,18 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 113.03 99.06 0)
+		(property "Footprint" "MTSW-103-23-F-D-230:SAMTEC_MTSW-103-23-F-D-230"
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 104.14 0)
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,8 +6034,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 113.03 104.14 0)
+		(property "Description" ""
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,13 +6043,138 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f1e65601-e141-4b54-8ccf-623d8d5a8fe3")
+		(property "MF" "Samtec"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCONN HEADER VERT 6POS 2.54MM\n"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MTSW-103-23-F-D-230/Samtec/view-part/?ref=eda"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MTSW-103-23-F-D-230/Samtec/view-part/?ref=snap"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MTSW-103-23-F-D-230"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "03"
+			(uuid "c587a6ef-03dd-4e45-bc40-a37113113138")
+		)
+		(pin "04"
+			(uuid "e1b17bd5-0ed7-49d7-9a46-9d00ddcde5f9")
+		)
+		(pin "01"
+			(uuid "af3b981e-54cd-4db6-8a04-71dcc32d137b")
+		)
+		(pin "05"
+			(uuid "023c8bb3-fceb-4c04-a84e-b49aa651255d")
+		)
+		(pin "06"
+			(uuid "32d7397f-39f0-4e33-aa8f-a6bd0ddbb06c")
+		)
+		(pin "02"
+			(uuid "32b37469-e100-447a-9a7d-4fe4fdb73de4")
 		)
 		(instances
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
-					(reference "#PWR02")
+					(reference "SENS2")
 					(unit 1)
 				)
 			)
@@ -5311,7 +6205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 97.79 52.07 90)
 			(effects
 				(font
@@ -5354,72 +6248,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 113.03 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7b640bc-3e37-4edd-a8b1-8eb37884f3fc")
-		(property "Reference" "#PWR05"
-			(at 113.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65077abc-11ee-476d-a9fa-8b990a2d4345")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 104.14 43.18 270)
 		(mirror x)
@@ -5445,7 +6273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 104.14 43.18 0)
 			(effects
 				(font
