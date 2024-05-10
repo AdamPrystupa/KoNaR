@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "minisumo_pcb")(type "KiCad")(uri "C:/Users/pryst/Desktop/KoNaR/Warsztaty/minisumo/minisumo_pcb.pretty")(options "")(descr ""))
+)

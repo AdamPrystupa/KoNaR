@@ -604,40 +604,28 @@
       "Root"
     ],
     [
-      "1d38a7b5-9036-4fb3-a1aa-d93f8a4ddf73",
-      "converter_SCL"
-    ],
-    [
       "2841fc75-29f5-4e06-b481-1d26a5df72c5",
       "uC"
-    ],
-    [
-      "59b0bb17-8e81-44d5-808a-81d9b31dde61",
-      "sensor2"
     ],
     [
       "d44754c4-1248-482d-a92b-4192f4f09fb1",
       "programming_connector"
     ],
     [
-      "be05ae0d-f68b-4925-8f0e-be2ec3f0af2e",
-      "sensor1"
-    ],
-    [
-      "e2e15633-8dde-4add-b1e0-ff449194304b",
-      "sensor3"
-    ],
-    [
-      "dad48793-a97b-4c5a-9413-b01e9a512fd2",
-      "converter_SDA"
-    ],
-    [
       "58eb88b1-485d-48c7-98a0-3f1f875455f5",
       "line_sensors"
     ],
     [
+      "430967e4-ab10-46f6-85c9-d4921e2b74f6",
+      "sensor1"
+    ],
+    [
       "fec592cb-397f-40c8-9127-e83f29739826",
       "powersupply"
+    ],
+    [
+      "2ef7160b-0123-47ce-9aa9-4acb05a9135f",
+      "sensor2"
     ],
     [
       "b8d919d3-78c3-4a57-ab4a-a567d8eddd6d",
@@ -648,44 +636,16 @@
       "motor_driver1"
     ],
     [
-      "f48fad68-5a7d-4ca2-b957-317f1b6f3632",
+      "b1e52e37-65e3-4b7a-ac18-46ca748af580",
+      "sensor3"
+    ],
+    [
+      "fd8559db-718b-46e4-b9e8-fb43a36357b7",
       "sensor4"
     ],
     [
-      "6370311e-bb6b-4c97-a800-647b77b0b74c",
+      "da52437e-b83d-4b13-8d2c-d0930bef3ed5",
       "motor_driver2"
-    ],
-    [
-      "96a8a3ea-db3e-4871-8a04-83c68ef86c2d",
-      "converter_GPIO1_4"
-    ],
-    [
-      "8cd9c070-14c0-4d67-9ed3-96dd987b1ea4",
-      "converter_GPIO1_4"
-    ],
-    [
-      "74db48b8-e6c6-4c11-9219-cd68702ff773",
-      "converter_GPIO1_2"
-    ],
-    [
-      "d765f8c2-0064-4acf-88c0-43e21c79c377",
-      "converter_GPIO1_1"
-    ],
-    [
-      "1f5a7b51-e11d-44b7-ad05-612eab760f9d",
-      "converter_XSHUT_1"
-    ],
-    [
-      "911a772f-3029-4454-bc72-1e673c6ed7c5",
-      "converter_XSHUT_2"
-    ],
-    [
-      "9c9dd9d7-fd5c-4476-b90f-89bef41bc651",
-      "converter_XSHUT_3"
-    ],
-    [
-      "ba7563d2-b1fc-4885-991b-1557492867f5",
-      "converter_XSHUT_4"
     ]
   ],
   "text_variables": {}

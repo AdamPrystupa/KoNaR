@@ -803,19 +803,7 @@
 		)
 		(uuid "140d68d0-ee72-477e-ba35-da3e75aeaf06")
 	)
-	(hierarchical_label "DIR1_1"
-		(shape input)
-		(at 49.53 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "05a0638a-513d-4597-bd24-cd92cd81bcab")
-	)
-	(hierarchical_label "DIR2_1"
+	(hierarchical_label "DIRA_1"
 		(shape input)
 		(at 49.53 35.56 0)
 		(fields_autoplaced yes)
@@ -827,7 +815,7 @@
 		)
 		(uuid "342934f6-7f19-4d34-a9d7-d7d5699d4a3f")
 	)
-	(hierarchical_label "DIR2_2"
+	(hierarchical_label "DIRB_1"
 		(shape input)
 		(at 29.21 35.56 180)
 		(fields_autoplaced yes)
@@ -837,9 +825,9 @@
 			)
 			(justify right)
 		)
-		(uuid "38b0ac54-08bd-4994-bef2-a8ced4b063f2")
+		(uuid "98fc057e-dcf2-4ebc-b80a-ab89ce4aea0c")
 	)
-	(hierarchical_label "DIR1_2"
+	(hierarchical_label "DIRB_2"
 		(shape input)
 		(at 29.21 40.64 180)
 		(fields_autoplaced yes)
@@ -850,6 +838,18 @@
 			(justify right)
 		)
 		(uuid "c9d568ab-6add-4447-a127-801c7982a35d")
+	)
+	(hierarchical_label "DIRA_2"
+		(shape input)
+		(at 49.53 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "e4c18114-e0d1-4da8-8359-72a0c64e6d7a")
 	)
 	(symbol
 		(lib_id "Device:C_Small")

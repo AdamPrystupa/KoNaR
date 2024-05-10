@@ -815,111 +815,6 @@
 				)
 			)
 		)
-		(symbol "Motors_KoNaR:Motor"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Motors_KoNaR:Motor"
-				(at 0 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Motor_1_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "M"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1300,28 +1195,28 @@
 		(uuid "5033984f-501d-4fc6-9d5e-af9c6419b1a9")
 	)
 	(junction
-		(at 72.39 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72018d6d-37e7-42ba-b1c0-a2982857d073")
-	)
-	(junction
 		(at 60.96 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "794bff87-3b83-4322-8434-9d2524b6ac26")
 	)
 	(junction
-		(at 74.93 55.88)
+		(at 72.39 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a79b816-3dc7-4c95-a713-b1b4f4d8cea3")
+		(uuid "7b201c37-90fe-4534-baf3-ba85fd9e02ea")
 	)
 	(junction
 		(at 30.48 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ca10ba6-ae4c-4d8e-a9ac-3a0ea69213e4")
+	)
+	(junction
+		(at 74.93 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9815a6cc-5310-41f6-abea-129df7b211db")
 	)
 	(junction
 		(at 77.47 33.02)
@@ -1347,6 +1242,14 @@
 		(color 0 0 0 0)
 		(uuid "f65473ef-8465-445c-bd0f-32cf18ac85f0")
 	)
+	(no_connect
+		(at 78.74 49.53)
+		(uuid "67461251-4e35-4a2e-80d4-675a798a4d8f")
+	)
+	(no_connect
+		(at 78.74 54.61)
+		(uuid "c497c9d1-51c3-4338-9469-f845b747cc54")
+	)
 	(wire
 		(pts
 			(xy 26.67 25.4) (xy 26.67 27.94)
@@ -1356,16 +1259,6 @@
 			(type default)
 		)
 		(uuid "06f06184-c931-4fff-890f-464d8d1d68a8")
-	)
-	(wire
-		(pts
-			(xy 72.39 38.1) (xy 72.39 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0861f57f-1c90-4b32-a64f-8fb76da5d0d2")
 	)
 	(wire
 		(pts
@@ -1379,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 43.18) (xy 74.93 55.88)
+			(xy 74.93 55.88) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1439,13 +1332,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 45.72) (xy 83.82 45.72)
+			(xy 74.93 43.18) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b504aeb-ba77-465d-8467-223c525d5fd5")
+		(uuid "1d988502-fc50-45b5-bb68-c0edbc5f4ecb")
 	)
 	(wire
 		(pts
@@ -1529,6 +1422,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 49.53) (xy 78.74 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb2a0e5-908d-468a-944b-bbd425dc2e52")
+	)
+	(wire
+		(pts
 			(xy 72.39 50.8) (xy 68.58 50.8)
 		)
 		(stroke
@@ -1569,6 +1472,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 54.61) (xy 78.74 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6df8cf-ae87-4d15-8e8b-dea0eb971731")
+	)
+	(wire
+		(pts
 			(xy 31.75 25.4) (xy 31.75 27.94)
 		)
 		(stroke
@@ -1606,6 +1519,16 @@
 			(type default)
 		)
 		(uuid "6ab50905-1263-4555-b25e-7bee8c8253bd")
+	)
+	(wire
+		(pts
+			(xy 72.39 50.8) (xy 72.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd44a88-0642-45ca-98d0-23da88cd9db8")
 	)
 	(wire
 		(pts
@@ -1656,16 +1579,6 @@
 			(type default)
 		)
 		(uuid "8cd5b055-c9a3-49ff-b74a-9b47ef612b8a")
-	)
-	(wire
-		(pts
-			(xy 72.39 45.72) (xy 72.39 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dc2c75d-2b7d-4dc1-86ff-fe0d73d703ed")
 	)
 	(wire
 		(pts
@@ -1839,13 +1752,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 55.88) (xy 83.82 55.88)
+			(xy 72.39 38.1) (xy 72.39 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eeb8ee48-15ca-4deb-9cbc-53710a2fe142")
+		(uuid "e6cda239-c100-4eab-8926-abaca5e9a874")
 	)
 	(wire
 		(pts
@@ -1900,6 +1813,19 @@
 		)
 		(uuid "332524cb-71d2-4abc-a572-034fa9ccc979")
 	)
+	(text "MOTOR_1\n\n"
+		(exclude_from_sim no)
+		(at 79.502 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 9 191 3 1)
+			)
+		)
+		(uuid "65693260-0cd6-4fa6-af55-8f2567f12ab2")
+	)
 	(hierarchical_label "PWM1"
 		(shape input)
 		(at 34.29 43.18 180)
@@ -1912,7 +1838,7 @@
 		)
 		(uuid "45408089-bcc3-4985-9fd0-93a9dd6abeff")
 	)
-	(hierarchical_label "DIRA_1"
+	(hierarchical_label "DIR1"
 		(shape input)
 		(at 29.21 50.8 180)
 		(fields_autoplaced yes)
@@ -1924,7 +1850,7 @@
 		)
 		(uuid "c715154c-e19d-48ac-9e84-3960dd8fdeaa")
 	)
-	(hierarchical_label "DIRB_1"
+	(hierarchical_label "DIR2"
 		(shape input)
 		(at 29.21 58.42 180)
 		(fields_autoplaced yes)
@@ -1996,6 +1922,10 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6ae141c6-db4a-4bb1-a0f3-35ba0e4d6945"
 					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2134,6 +2064,10 @@
 					(reference "U2")
 					(unit 1)
 				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "U13")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2197,6 +2131,10 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6ae141c6-db4a-4bb1-a0f3-35ba0e4d6945"
 					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2263,6 +2201,10 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6ae141c6-db4a-4bb1-a0f3-35ba0e4d6945"
 					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2335,6 +2277,10 @@
 					(reference "C6")
 					(unit 1)
 				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "C19")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2366,7 +2312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 26.67 30.48 0)
 			(effects
 				(font
@@ -2405,74 +2351,8 @@
 					(reference "C5")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motors_KoNaR:Motor")
-		(at 83.82 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99592e26-5b84-4620-89a8-5571debbaa22")
-		(property "Reference" "M1"
-			(at 87.63 50.1649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 87.63 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Motors_KoNaR:KoNaR_Motor"
-			(at 87.884 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfec8184-4831-413a-a0c8-9eb436744ce7")
-		)
-		(pin "2"
-			(uuid "1ec218ec-c35a-4bfc-ae1b-a7bab66449b8")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6ae141c6-db4a-4bb1-a0f3-35ba0e4d6945"
-					(reference "M1")
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2540,6 +2420,10 @@
 					(reference "#PWR012")
 					(unit 1)
 				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "#PWR040")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2605,6 +2489,10 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6ae141c6-db4a-4bb1-a0f3-35ba0e4d6945"
 					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2676,6 +2564,10 @@
 					(reference "C3")
 					(unit 1)
 				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "C20")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2742,6 +2634,10 @@
 					(reference "#PWR011")
 					(unit 1)
 				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "#PWR051")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2772,7 +2668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 77.47 29.21 0)
 			(effects
 				(font
@@ -2809,6 +2705,10 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6ae141c6-db4a-4bb1-a0f3-35ba0e4d6945"
 					(reference "C4")
+					(unit 1)
+				)
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6370311e-bb6b-4c97-a800-647b77b0b74c"
+					(reference "C23")
 					(unit 1)
 				)
 			)

@@ -5,142 +5,6 @@
 	(uuid "c89f33ab-f518-41e2-8e54-16e4c8f22453")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -485,142 +349,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Linear:LM1117S-3.3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM1117S-3.3"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-263"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM1117S-3.3_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM1117S-3.3_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1414,12 +1142,6 @@
 		)
 	)
 	(junction
-		(at 95.25 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "029595f3-09be-44f8-ac35-f59e44339996")
-	)
-	(junction
 		(at 54.61 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1430,24 +1152,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1affeb6c-bb27-4439-91cd-de41adbb2acf")
-	)
-	(junction
-		(at 77.47 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1df4ae4f-8728-42a3-9a0b-3a4c34c0e583")
-	)
-	(junction
-		(at 95.25 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8be9397b-fe08-4b46-a91f-df3202c25e35")
-	)
-	(junction
-		(at 106.68 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a26a08b4-06c1-4e87-9acd-d546782a7ee6")
 	)
 	(junction
 		(at 43.18 40.64)
@@ -1462,26 +1166,10 @@
 		(uuid "aad7e447-5efe-4031-a06a-04e59defaa60")
 	)
 	(junction
-		(at 118.11 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cda66bcb-c554-45d0-94da-889cc68f8199")
-	)
-	(junction
 		(at 77.47 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ced83b8d-0b02-4da0-9dcb-3b3407a4084f")
-	)
-	(wire
-		(pts
-			(xy 77.47 31.75) (xy 95.25 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd860a6-c982-4156-9dab-7c8210fe92f8")
 	)
 	(wire
 		(pts
@@ -1525,16 +1213,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 31.75) (xy 99.06 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2463bb3a-d487-41c2-a86a-b567a9a0ddf8")
-	)
-	(wire
-		(pts
 			(xy 43.18 39.37) (xy 43.18 40.64)
 		)
 		(stroke
@@ -1555,16 +1233,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 40.64) (xy 106.68 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "415ef9f3-f736-42ea-837e-bd18390d4ed5")
-	)
-	(wire
-		(pts
 			(xy 54.61 31.75) (xy 54.61 33.02)
 		)
 		(stroke
@@ -1575,16 +1243,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 31.75) (xy 118.11 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a3c83a3-c9ff-4be3-964e-be2f30e21e5c")
-	)
-	(wire
-		(pts
 			(xy 31.75 31.75) (xy 38.1 31.75)
 		)
 		(stroke
@@ -1592,26 +1250,6 @@
 			(type default)
 		)
 		(uuid "5c43a88d-19f8-464f-9257-a5ba288648dd")
-	)
-	(wire
-		(pts
-			(xy 118.11 29.21) (xy 118.11 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5df068db-691e-40b2-921c-25c380fd953c")
-	)
-	(wire
-		(pts
-			(xy 118.11 39.37) (xy 118.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f8e80c-267c-4f90-9e76-6f1146da43e4")
 	)
 	(wire
 		(pts
@@ -1665,16 +1303,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 39.37) (xy 106.68 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be18e614-c6c2-4bd5-83dc-babae2f74fb4")
-	)
-	(wire
-		(pts
 			(xy 66.04 39.37) (xy 66.04 40.64)
 		)
 		(stroke
@@ -1692,16 +1320,6 @@
 			(type default)
 		)
 		(uuid "d36aa299-983d-40cd-a45c-ae5f4361a678")
-	)
-	(wire
-		(pts
-			(xy 106.68 40.64) (xy 118.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d71f7f94-1fc8-4648-b780-ce51f6daf6c7")
 	)
 	(wire
 		(pts
@@ -1725,16 +1343,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 39.37) (xy 95.25 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f187118f-519e-4dd9-964e-0b7bf68f07e3")
-	)
-	(wire
-		(pts
 			(xy 73.66 31.75) (xy 77.47 31.75)
 		)
 		(stroke
@@ -1743,19 +1351,9 @@
 		)
 		(uuid "f2645ba3-c003-4aa2-a6fe-5e27832ff357")
 	)
-	(wire
-		(pts
-			(xy 77.47 40.64) (xy 95.25 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe5052d3-d6c9-428b-a395-4160c640bcc5")
-	)
 	(rectangle
 		(start 13.97 15.24)
-		(end 134.62 50.8)
+		(end 82.55 50.8)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1786,16 +1384,6 @@
 		)
 		(uuid "72449b05-a7ff-491c-8882-7d2f04235e84")
 	)
-	(text "Voltage regulator 3V3\n\n\n"
-		(exclude_from_sim no)
-		(at 108.966 23.622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d39ee739-d5d6-45fd-9eaa-662e7cd1f54d")
-	)
 	(global_label "+"
 		(shape input)
 		(at 31.75 31.75 90)
@@ -1815,84 +1403,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 77.47 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95f1a672-073c-4a07-bb62-c52bee3b6362")
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 118.11 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c22fbe6-330f-496f-9155-138e489e9281")
-		(property "Reference" "#PWR020"
-			(at 118.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 118.11 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 118.11 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d01b5840-cd97-4a9b-8ab4-c5942a916978")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
-					(reference "#PWR020")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2123,75 +1633,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 95.25 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3aa052d9-dcd7-46cb-b09f-fd69de369ce2")
-		(property "Reference" "C11"
-			(at 90.424 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 90.424 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 96.2152 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "793f2103-c233-433e-9cd8-867ef886f64a")
-		)
-		(pin "2"
-			(uuid "a4fba28c-3ef0-4bef-9124-abdb1af675b3")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 77.47 35.56 0)
 		(unit 1)
@@ -2208,6 +1649,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "10u"
@@ -2217,9 +1659,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 77.47 35.56 0)
 			(effects
 				(font
@@ -2256,75 +1699,6 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118.11 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70a4e696-b601-4143-bb0e-e50f7935d713")
-		(property "Reference" "C12"
-			(at 120.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 118.364 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 119.0752 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b3357f4-48fe-4a36-a1af-1a6f29648a5c")
-		)
-		(pin "2"
-			(uuid "cf97fa21-ef39-4fe8-8bfa-73e52df11b3f")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2429,77 +1803,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM1117S-3.3")
-		(at 106.68 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a254fa1-a969-4102-9aa8-1a9627bf1df7")
-		(property "Reference" "U9"
-			(at 106.68 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1117S-3.3"
-			(at 106.68 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 106.68 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 106.68 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-263"
-			(at 106.68 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a3eece6-4a1a-4345-baaa-7e6e217ffcbc")
-		)
-		(pin "3"
-			(uuid "d9c39d80-b605-4a94-867e-61bf85fc5da1")
-		)
-		(pin "2"
-			(uuid "7df014fc-7885-495b-b9dc-65317dc8c1bc")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fec592cb-397f-40c8-9127-e83f29739826"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 54.61 35.56 0)
 		(unit 1)
@@ -2527,7 +1830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 54.61 35.56 0)
 			(effects
 				(font

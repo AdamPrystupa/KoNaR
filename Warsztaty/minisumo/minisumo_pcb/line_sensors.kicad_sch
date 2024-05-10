@@ -1275,7 +1275,7 @@
 		(uuid "9e4a6f8f-67d1-4c1a-8307-a3b28e7d2e0a")
 	)
 	(hierarchical_label "LS1"
-		(shape input)
+		(shape output)
 		(at 116.84 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1287,7 +1287,7 @@
 		(uuid "48970149-23be-4da7-b902-ff44cf757203")
 	)
 	(hierarchical_label "LS2"
-		(shape input)
+		(shape output)
 		(at 116.84 52.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1299,7 +1299,7 @@
 		(uuid "a3a8a9ac-d8bf-4bb9-8dca-f39af8adab64")
 	)
 	(hierarchical_label "LS3"
-		(shape input)
+		(shape output)
 		(at 116.84 66.04 0)
 		(fields_autoplaced yes)
 		(effects
