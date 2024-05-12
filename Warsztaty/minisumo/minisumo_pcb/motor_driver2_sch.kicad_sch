@@ -1900,6 +1900,28 @@
 		)
 		(uuid "2e371ab8-981d-4f8e-ae8c-097c36ae665f")
 	)
+	(label "MOTOR_IN2"
+		(at 76.2 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c047482-5653-4915-b75d-80de328e1744")
+	)
+	(label "MOTOR_IN1"
+		(at 76.2 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db2af91e-432a-477b-b6dd-dce76fabfad5")
+	)
 	(hierarchical_label "PWM2"
 		(shape input)
 		(at 34.29 43.18 180)
@@ -1963,7 +1985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.39 29.21 0)
 			(effects
 				(font
@@ -2228,7 +2250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 77.47 29.21 0)
 			(effects
 				(font
@@ -2298,7 +2320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 31.75 30.48 0)
 			(effects
 				(font
@@ -2772,7 +2794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
 			(at 26.67 30.48 0)
 			(effects
 				(font

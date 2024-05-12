@@ -5,6 +5,128 @@
 	(uuid "c2ef3a75-f5a4-42ee-b8f5-c82198aaaf1e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MTSW-103-23-F-D-230:MTSW-103-23-F-D-230"
 			(pin_names
 				(offset 1.016)
@@ -507,6 +629,22 @@
 			)
 		)
 	)
+	(junction
+		(at 25.4 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d46421a-24d7-4a4b-b6af-3582f8c569e7")
+	)
+	(wire
+		(pts
+			(xy 25.4 35.56) (xy 25.4 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04befd69-12e5-45bc-b695-184020414efa")
+	)
 	(wire
 		(pts
 			(xy 60.96 33.02) (xy 62.23 33.02)
@@ -539,13 +677,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 35.56) (xy 35.56 35.56)
+			(xy 25.4 35.56) (xy 26.67 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61f25e3c-91c4-421b-8202-3163867365ca")
+		(uuid "1ff4a7fb-168d-4c19-a335-482f858ad007")
 	)
 	(wire
 		(pts
@@ -559,7 +697,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 30.48) (xy 35.56 30.48)
+			(xy 17.78 30.48) (xy 35.56 30.48)
 		)
 		(stroke
 			(width 0)
@@ -569,13 +707,33 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 38.1) (xy 25.4 30.48)
+			(xy 21.59 35.56) (xy 25.4 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757858fd-f68b-4cef-9172-eff877d6e2df")
+	)
+	(wire
+		(pts
+			(xy 17.78 44.45) (xy 17.78 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed78916c-5033-4fad-a992-aa3a171c8bb3")
+	)
+	(wire
+		(pts
+			(xy 31.75 35.56) (xy 35.56 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0f2dd8-fdcf-4c56-a6c1-51ba97db4dca")
 	)
 	(wire
 		(pts
@@ -586,6 +744,16 @@
 			(type default)
 		)
 		(uuid "f0caec53-1f41-48dc-8c1c-22edbe41b3ae")
+	)
+	(wire
+		(pts
+			(xy 25.4 41.91) (xy 25.4 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d42002-cebb-458e-8a32-f6708378f45d")
 	)
 	(rectangle
 		(start 15.24 13.97)
@@ -636,7 +804,7 @@
 	)
 	(hierarchical_label "X2"
 		(shape input)
-		(at 34.29 35.56 180)
+		(at 21.59 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -657,6 +825,73 @@
 			(justify left)
 		)
 		(uuid "a5b5aee9-348c-49cb-b182-438f918ffd43")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 29.21 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06ea6e00-1437-438c-9388-a7c2d599a906")
+		(property "Reference" "R6"
+			(at 29.21 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 29.21 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 29.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 29.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8bfc0c6-e071-4b80-a340-c75614e98738")
+		)
+		(pin "1"
+			(uuid "47e9c7c3-8dff-41ab-8645-277043926dea")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2ef7160b-0123-47ce-9aa9-4acb05a9135f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MTSW-103-23-F-D-230:MTSW-103-23-F-D-230")
@@ -850,6 +1085,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 25.4 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99c05473-fcac-4ea9-a728-da2279d160fd")
+		(property "Reference" "#PWR030"
+			(at 25.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0528466-7a35-4ee7-ac3b-4366d154d2c8")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2ef7160b-0123-47ce-9aa9-4acb05a9135f"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 63.5 29.21 0)
 		(unit 1)
@@ -917,16 +1217,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 38.1 0)
+		(at 17.78 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1c2413a-4286-457b-95ce-eee80cc85c6d")
 		(property "Reference" "#PWR08"
-			(at 25.4 44.45 0)
+			(at 17.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +1234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 43.18 0)
+			(at 17.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,7 +1242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 38.1 0)
+			(at 17.78 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,7 +1251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 38.1 0)
+			(at 17.78 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,7 +1260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 38.1 0)
+			(at 17.78 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,6 +1275,73 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2ef7160b-0123-47ce-9aa9-4acb05a9135f"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 25.4 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d55202b5-9dc9-46ee-8336-c760aaa880b8")
+		(property "Reference" "R3"
+			(at 23.622 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 27.178 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3bda6ac-d554-4842-8b7e-4906ace8e486")
+		)
+		(pin "1"
+			(uuid "a45d79cd-a814-452c-bad7-a124c9bbc0a9")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2ef7160b-0123-47ce-9aa9-4acb05a9135f"
+					(reference "R3")
 					(unit 1)
 				)
 			)

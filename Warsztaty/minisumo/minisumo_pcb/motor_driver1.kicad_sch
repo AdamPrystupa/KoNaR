@@ -1900,6 +1900,28 @@
 		)
 		(uuid "332524cb-71d2-4abc-a572-034fa9ccc979")
 	)
+	(label "MOTOR_IN1"
+		(at 76.2 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5848f646-86eb-459f-ba7c-00fee0778ba7")
+	)
+	(label "MOTOR_IN2"
+		(at 76.2 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a67fce4-ecbc-4658-a4fd-3955f687b3f0")
+	)
 	(hierarchical_label "PWM1"
 		(shape input)
 		(at 34.29 43.18 180)
@@ -2296,7 +2318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 31.75 30.48 0)
 			(effects
 				(font
@@ -2637,7 +2659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.39 29.21 0)
 			(effects
 				(font
