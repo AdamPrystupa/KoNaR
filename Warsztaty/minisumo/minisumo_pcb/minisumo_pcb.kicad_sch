@@ -299,6 +299,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 142.24) (xy 176.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5f3d96-bd76-4bb1-85f6-6900190cbca1")
+	)
+	(wire
+		(pts
 			(xy 127 128.27) (xy 134.62 128.27)
 		)
 		(stroke
@@ -639,16 +649,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 142.24) (xy 176.53 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2914285-afcf-4999-bb3f-afa0de213119")
-	)
-	(wire
-		(pts
 			(xy 129.54 88.9) (xy 129.54 120.65)
 		)
 		(stroke
@@ -897,16 +897,6 @@
 			)
 			(uuid "258c955f-fb36-4c1e-afb4-1e788bf6bfd8")
 		)
-		(pin "LS3" input
-			(at 172.72 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7cf8cbef-cf46-49bc-9473-e44c456bfd37")
-		)
 		(pin "LS1" input
 			(at 172.72 137.16 0)
 			(effects
@@ -1006,6 +996,26 @@
 				(justify right)
 			)
 			(uuid "8348d574-aec2-40db-8846-7d9373697c4c")
+		)
+		(pin "STARTER" input
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bbe6b403-0b4e-4e59-b2f0-7a217650c345")
+		)
+		(pin "LS3" input
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "757251ba-fb5a-46db-a44a-2bd1a83949c4")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1202,16 +1212,6 @@
 			)
 		)
 		(pin "LS2" input
-			(at 176.53 142.24 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "425646b0-ce64-4763-9333-a8fca8799937")
-		)
-		(pin "LS3" input
 			(at 176.53 139.7 180)
 			(effects
 				(font
@@ -1219,7 +1219,7 @@
 				)
 				(justify left)
 			)
-			(uuid "9b550958-04ca-4e33-90f2-31be26b9a27b")
+			(uuid "425646b0-ce64-4763-9333-a8fca8799937")
 		)
 		(pin "LS1" input
 			(at 176.53 137.16 180)
@@ -1230,6 +1230,16 @@
 				(justify left)
 			)
 			(uuid "069c133a-5930-4ed9-8ecf-dedcd9abab7e")
+		)
+		(pin "LS3" output
+			(at 176.53 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f3d5e61-4d3f-4527-af34-d1fcd3b1c43a")
 		)
 		(instances
 			(project "minisumo_pcb"

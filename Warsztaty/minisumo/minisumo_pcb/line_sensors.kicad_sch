@@ -814,86 +814,86 @@
 		)
 	)
 	(junction
-		(at 104.14 57.15)
+		(at 53.34 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "041e7b01-efad-495e-ab99-2e74aa1719ae")
 	)
 	(junction
-		(at 109.22 66.04)
+		(at 58.42 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2070a08e-fe8a-443e-a604-2b90355e3463")
 	)
 	(junction
-		(at 73.66 38.1)
+		(at 52.07 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b3cd287-af97-4bc1-97e6-58c203625ca5")
+		(uuid "30cec10e-1bbe-47f7-8535-f6516d8a984b")
 	)
 	(junction
-		(at 71.12 57.15)
+		(at 20.32 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "310ad4d5-514c-4fdc-83d9-9c4e1ac48382")
 	)
 	(junction
-		(at 73.66 31.75)
+		(at 22.86 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36e6135c-01a0-4a63-856a-f3e7c08cddad")
 	)
 	(junction
-		(at 104.14 71.12)
+		(at 53.34 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c860819-c64a-413e-b15d-ab87a2f43c3d")
 	)
 	(junction
-		(at 102.87 38.1)
+		(at 22.86 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63e4feb9-2c94-48bb-8dcc-a0e05c35b3d4")
+		(uuid "4f0a18b6-4539-48c4-9783-6e134a9e6625")
 	)
 	(junction
-		(at 102.87 31.75)
+		(at 52.07 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "700662ce-13d7-45e3-9ebe-c00e3c22e233")
 	)
 	(junction
-		(at 105.41 52.07)
+		(at 54.61 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad4930e7-13ed-420b-9c66-d52c70c31c3e")
 	)
 	(junction
-		(at 105.41 31.75)
+		(at 54.61 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcfd254a-f957-4c44-bd05-8634f8b8ee02")
 	)
 	(junction
-		(at 85.09 77.47)
+		(at 34.29 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1f1b42f-1754-4a4f-8b4a-bc677ff422fd")
 	)
 	(junction
-		(at 71.12 77.47)
+		(at 20.32 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9cc29f9-dc91-40d2-8b37-e26904aebe70")
 	)
 	(junction
-		(at 73.66 52.07)
+		(at 22.86 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd39ab48-fee3-49ac-b32f-d76ff0398f84")
 	)
 	(wire
 		(pts
-			(xy 100.33 71.12) (xy 104.14 71.12)
+			(xy 49.53 68.58) (xy 53.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -903,7 +903,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 77.47) (xy 71.12 78.74)
+			(xy 20.32 74.93) (xy 20.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -913,7 +913,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 71.12) (xy 104.14 77.47)
+			(xy 53.34 68.58) (xy 53.34 74.93)
 		)
 		(stroke
 			(width 0)
@@ -923,7 +923,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 31.75) (xy 102.87 31.75)
+			(xy 22.86 29.21) (xy 52.07 29.21)
 		)
 		(stroke
 			(width 0)
@@ -933,17 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 38.1) (xy 85.09 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13f5a4b6-e295-443a-89b5-9275a924e92f")
-	)
-	(wire
-		(pts
-			(xy 104.14 57.15) (xy 104.14 71.12)
+			(xy 53.34 54.61) (xy 53.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -953,17 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 31.75) (xy 73.66 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c74d38c-587f-4d2a-94a0-5e2713399a09")
-	)
-	(wire
-		(pts
-			(xy 73.66 66.04) (xy 77.47 66.04)
+			(xy 22.86 63.5) (xy 26.67 63.5)
 		)
 		(stroke
 			(width 0)
@@ -973,7 +953,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 77.47) (xy 85.09 77.47)
+			(xy 20.32 74.93) (xy 34.29 74.93)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 57.15) (xy 104.14 57.15)
+			(xy 49.53 54.61) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -993,17 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 38.1) (xy 116.84 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42dceed5-1b40-46e3-a06a-4ee187880257")
-	)
-	(wire
-		(pts
-			(xy 109.22 66.04) (xy 116.84 66.04)
+			(xy 58.42 63.5) (xy 66.04 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1013,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 31.75) (xy 109.22 31.75)
+			(xy 54.61 29.21) (xy 58.42 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1023,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 52.07) (xy 85.09 52.07)
+			(xy 31.75 49.53) (xy 34.29 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1033,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 52.07) (xy 73.66 66.04)
+			(xy 22.86 49.53) (xy 22.86 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 31.75) (xy 109.22 60.96)
+			(xy 58.42 29.21) (xy 58.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 77.47) (xy 85.09 77.47)
+			(xy 53.34 74.93) (xy 34.29 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1063,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 31.75) (xy 105.41 31.75)
+			(xy 52.07 29.21) (xy 54.61 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 43.18) (xy 71.12 57.15)
+			(xy 20.32 41.91) (xy 20.32 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1053,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 52.07) (xy 116.84 52.07)
+			(xy 31.75 36.83) (xy 31.75 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e109dcf-2e84-4c9c-8464-ec9d38ce9ff8")
+	)
+	(wire
+		(pts
+			(xy 54.61 49.53) (xy 66.04 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 73.66 52.07)
+			(xy 22.86 29.21) (xy 22.86 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1103,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 43.18) (xy 85.09 43.18)
+			(xy 20.32 41.91) (xy 34.29 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1113,17 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 38.1) (xy 102.87 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fe557e0-e5bb-467a-b2cc-fadde98b3df2")
-	)
-	(wire
-		(pts
-			(xy 73.66 29.21) (xy 73.66 31.75)
+			(xy 22.86 26.67) (xy 22.86 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1133,17 +1103,37 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 31.75) (xy 102.87 33.02)
+			(xy 34.29 36.83) (xy 31.75 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cf498bc-6749-40ad-becf-b628a2aa0eb5")
+		(uuid "781a3f68-4f51-4e8e-8e01-b0c02e2ee136")
 	)
 	(wire
 		(pts
-			(xy 85.09 77.47) (xy 85.09 71.12)
+			(xy 22.86 35.56) (xy 22.86 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781f3b0f-4b5c-43a1-b038-7510dd2b8999")
+	)
+	(wire
+		(pts
+			(xy 22.86 35.56) (xy 26.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f35bcfc-a615-4ad3-a822-8f6203f5a272")
+	)
+	(wire
+		(pts
+			(xy 34.29 74.93) (xy 34.29 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1153,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 43.18) (xy 104.14 43.18)
+			(xy 49.53 41.91) (xy 53.34 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1153,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 31.75) (xy 105.41 46.99)
+			(xy 52.07 36.83) (xy 63.5 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36e062a-59ae-4086-9174-a9f70841e00e")
+	)
+	(wire
+		(pts
+			(xy 54.61 29.21) (xy 54.61 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1173,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 43.18) (xy 104.14 57.15)
+			(xy 53.34 41.91) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 57.15) (xy 85.09 57.15)
+			(xy 20.32 54.61) (xy 34.29 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1193,7 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 66.04) (xy 85.09 66.04)
+			(xy 31.75 63.5) (xy 34.29 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1203,17 +1203,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 77.47 38.1)
+			(xy 49.53 36.83) (xy 52.07 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce568190-3b7d-4001-b797-955f8670de8d")
+		(uuid "cd2481dd-8ae0-48c0-ae70-9bfdc21912cc")
 	)
 	(wire
 		(pts
-			(xy 73.66 52.07) (xy 77.47 52.07)
+			(xy 22.86 49.53) (xy 26.67 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1223,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 52.07) (xy 105.41 52.07)
+			(xy 49.53 49.53) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1233,7 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 66.04) (xy 109.22 66.04)
+			(xy 49.53 63.5) (xy 58.42 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1243,7 +1243,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 57.15) (xy 71.12 77.47)
+			(xy 20.32 54.61) (xy 20.32 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1251,9 +1251,19 @@
 		)
 		(uuid "e6bea49e-7ae5-4d23-9f8c-a4ba5603d3bc")
 	)
+	(wire
+		(pts
+			(xy 52.07 29.21) (xy 52.07 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebfbaf3-25fa-425a-b8b3-ab582720f7ae")
+	)
 	(rectangle
-		(start 66.04 17.78)
-		(end 121.92 87.63)
+		(start 15.24 15.24)
+		(end 71.12 85.09)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1266,7 +1276,7 @@
 	)
 	(text "Line Sensors\n"
 		(exclude_from_sim no)
-		(at 73.66 20.066 0)
+		(at 22.86 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1274,9 +1284,9 @@
 		)
 		(uuid "9e4a6f8f-67d1-4c1a-8307-a3b28e7d2e0a")
 	)
-	(hierarchical_label "LS1"
+	(hierarchical_label "LS3"
 		(shape output)
-		(at 116.84 38.1 0)
+		(at 63.5 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1284,11 +1294,11 @@
 			)
 			(justify left)
 		)
-		(uuid "48970149-23be-4da7-b902-ff44cf757203")
+		(uuid "7fad094d-8638-4dec-986c-354d04e13c77")
 	)
 	(hierarchical_label "LS2"
 		(shape output)
-		(at 116.84 52.07 0)
+		(at 66.04 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1298,9 +1308,9 @@
 		)
 		(uuid "a3a8a9ac-d8bf-4bb9-8dca-f39af8adab64")
 	)
-	(hierarchical_label "LS3"
+	(hierarchical_label "LS1"
 		(shape output)
-		(at 116.84 66.04 0)
+		(at 66.04 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1312,7 +1322,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 105.41 49.53 180)
+		(at 54.61 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1321,7 +1331,7 @@
 		(fields_autoplaced yes)
 		(uuid "05878278-8b62-475a-a1b7-add9d7fe8adb")
 		(property "Reference" "R19"
-			(at 107.95 48.2599 0)
+			(at 57.15 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1340,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 107.95 50.7999 0)
+			(at 57.15 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1349,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 105.41 49.53 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1348,7 +1358,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 49.53 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1367,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 105.41 49.53 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1392,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 78.74 0)
+		(at 20.32 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1391,7 +1401,7 @@
 		(fields_autoplaced yes)
 		(uuid "07796a04-a9c8-4a83-a7ae-db1e810a8259")
 		(property "Reference" "#PWR03"
-			(at 71.12 85.09 0)
+			(at 20.32 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1410,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 83.82 0)
+			(at 20.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 78.74 0)
+			(at 20.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 78.74 0)
+			(at 20.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 78.74 0)
+			(at 20.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1458,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 80.01 66.04 90)
+		(at 29.21 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1457,7 +1467,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c88afcd-d81b-4b9f-af7e-3e7f4b5ad604")
 		(property "Reference" "R17"
-			(at 80.01 60.96 90)
+			(at 29.21 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1475,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 80.01 63.5 90)
+			(at 29.21 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1483,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 80.01 66.04 0)
+			(at 29.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 66.04 0)
+			(at 29.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1501,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 80.01 66.04 0)
+			(at 29.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,78 +1525,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 102.87 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "273c89aa-b3ad-44e1-ab48-d27f78ff270d")
-		(property "Reference" "R18"
-			(at 105.41 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 105.41 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 102.87 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 102.87 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0314989-e1be-4620-b090-6f9689b1c67f")
-		)
-		(pin "1"
-			(uuid "a4391f30-5d20-4f57-8428-fdec06ed8394")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/58eb88b1-485d-48c7-98a0-3f1f875455f5"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Proximity:ITR8307-S17-TR8")
-		(at 92.71 68.58 0)
+		(at 41.91 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1594,7 +1534,7 @@
 		(dnp no)
 		(uuid "29d2dce6-b17f-4b95-984f-f6f71ed28f29")
 		(property "Reference" "U11"
-			(at 92.71 59.69 0)
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1543,7 @@
 			)
 		)
 		(property "Value" "ITR8307-S17-TR8"
-			(at 92.71 62.23 0)
+			(at 41.91 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1552,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:Everlight_ITR1201SR10AR"
-			(at 92.71 73.66 0)
+			(at 41.91 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1561,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1810010232_Everlight-Elec-ITR8307-S17-TR8-B_C81632.pdf"
-			(at 92.71 66.04 0)
+			(at 41.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,8 +1569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Line Sensor 3"
-			(at 92.71 62.23 0)
+		(property "Description" "Line Sensor 1"
+			(at 41.91 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1600,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:ITR8307-S17-TR8")
-		(at 92.71 54.61 0)
+		(at 41.91 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1668,7 +1608,7 @@
 		(dnp no)
 		(uuid "3185da35-7ff8-41a6-9ed0-2f6c64db4c15")
 		(property "Reference" "U10"
-			(at 92.71 45.72 0)
+			(at 41.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1617,7 @@
 			)
 		)
 		(property "Value" "ITR8307-S17-TR8"
-			(at 92.71 48.26 0)
+			(at 41.91 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1626,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:Everlight_ITR1201SR10AR"
-			(at 92.71 59.69 0)
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1635,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1810010232_Everlight-Elec-ITR8307-S17-TR8-B_C81632.pdf"
-			(at 92.71 52.07 0)
+			(at 41.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1644,7 @@
 			)
 		)
 		(property "Description" "Line Sensor 2"
-			(at 92.71 48.26 0)
+			(at 41.91 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,17 +1673,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Proximity:ITR8307-S17-TR8")
+		(at 41.91 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86a34098-bedd-4b41-8eae-9e4f182ba16b")
+		(property "Reference" "U3"
+			(at 41.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ITR8307-S17-TR8"
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OptoDevice:Everlight_ITR1201SR10AR"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1810010232_Everlight-Elec-ITR8307-S17-TR8-B_C81632.pdf"
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Line Sensor 3"
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "56b9c8f5-df45-4fee-8eec-fc5bda0e9e87")
+		)
+		(pin "2"
+			(uuid "471e9bbe-36f6-456a-ab75-2a090c67c630")
+		)
+		(pin "4"
+			(uuid "66f6e8e0-cb8f-45b9-a241-1b73f5e9cdd8")
+		)
+		(pin "1"
+			(uuid "4f4e2513-a028-4d44-83df-00952132b5b5")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/58eb88b1-485d-48c7-98a0-3f1f875455f5"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 80.01 38.1 90)
+		(at 29.21 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "657da065-4862-4220-8e10-583d0c54bd1b")
-		(property "Reference" "R7"
-			(at 80.01 33.02 90)
+		(uuid "97526bd3-52b5-4a28-8630-108e153efe40")
+		(property "Reference" "R13"
+			(at 29.21 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1765,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 80.01 35.56 90)
+			(at 29.21 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1773,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 80.01 38.1 0)
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1782,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 38.1 0)
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1791,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 80.01 38.1 0)
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,15 +1800,85 @@
 			)
 		)
 		(pin "2"
-			(uuid "f70080fb-1828-4a04-90fa-5c5d32ea20a3")
+			(uuid "ba5baf3b-ef82-44bd-880b-1e0eae70548f")
 		)
 		(pin "1"
-			(uuid "f04fac3c-84ed-46bd-86d8-506ebed5cbe6")
+			(uuid "3c83c213-cae5-4dec-a66d-abb1f5381bd8")
 		)
 		(instances
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/58eb88b1-485d-48c7-98a0-3f1f875455f5"
-					(reference "R7")
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 52.07 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a76110e0-c3a1-4013-a39d-7154160a10f6")
+		(property "Reference" "R14"
+			(at 54.61 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 54.61 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 52.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 52.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2b32991-2034-4f28-942b-13f4595d634b")
+		)
+		(pin "1"
+			(uuid "dced76b9-abd8-471c-83b5-1f1bf3095df6")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/58eb88b1-485d-48c7-98a0-3f1f875455f5"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1802,7 +1886,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 73.66 29.21 0)
+		(at 22.86 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1810,7 +1894,7 @@
 		(dnp no)
 		(uuid "ab98aca2-560e-4796-9451-1bf36921a54e")
 		(property "Reference" "#PWR04"
-			(at 73.66 33.02 0)
+			(at 22.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +1903,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 73.66 25.4 0)
+			(at 22.86 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 29.21 0)
+			(at 22.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 29.21 0)
+			(at 22.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +1929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 73.66 29.21 0)
+			(at 22.86 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +1951,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 80.01 52.07 90)
+		(at 29.21 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1876,7 +1960,7 @@
 		(fields_autoplaced yes)
 		(uuid "acb544c8-8353-4ed5-a7e7-e1550f375739")
 		(property "Reference" "R8"
-			(at 80.01 46.99 90)
+			(at 29.21 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1968,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 80.01 49.53 90)
+			(at 29.21 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1976,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 80.01 52.07 0)
+			(at 29.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 52.07 0)
+			(at 29.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +1994,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 80.01 52.07 0)
+			(at 29.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2019,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 109.22 63.5 180)
+		(at 58.42 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1944,7 +2028,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2569a6b-545e-41b8-bac6-3829c7ea5b50")
 		(property "Reference" "R20"
-			(at 111.76 62.2299 0)
+			(at 60.96 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +2037,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 111.76 64.7699 0)
+			(at 60.96 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +2046,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 109.22 63.5 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +2055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 63.5 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +2064,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 109.22 63.5 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,80 +2082,6 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/58eb88b1-485d-48c7-98a0-3f1f875455f5"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Proximity:ITR8307-S17-TR8")
-		(at 92.71 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f464b344-5bdd-424d-a9ad-6dcc3234c923")
-		(property "Reference" "U8"
-			(at 92.71 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ITR8307-S17-TR8"
-			(at 92.71 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "OptoDevice:Everlight_ITR1201SR10AR"
-			(at 92.71 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1810010232_Everlight-Elec-ITR8307-S17-TR8-B_C81632.pdf"
-			(at 92.71 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Line Sensor 1"
-			(at 92.71 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "124102c8-a12b-4935-b43c-243f88d5e416")
-		)
-		(pin "2"
-			(uuid "0c303f42-0d9c-4a91-b9f3-3716cfafb636")
-		)
-		(pin "4"
-			(uuid "d5ef5de1-8def-490a-9015-3cdfc0c87dd6")
-		)
-		(pin "1"
-			(uuid "318e398a-51ea-4372-b3b4-c9a9b7cf2af0")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/58eb88b1-485d-48c7-98a0-3f1f875455f5"
-					(reference "U8")
 					(unit 1)
 				)
 			)

@@ -630,10 +630,10 @@
 		)
 	)
 	(junction
-		(at 24.13 35.56)
+		(at 30.48 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af53ff61-0456-40bf-91df-750789b3ac5c")
+		(uuid "5a996be9-bdaf-4c31-b959-729981016fd5")
 	)
 	(wire
 		(pts
@@ -644,6 +644,16 @@
 			(type default)
 		)
 		(uuid "04782ad4-d6b6-44b3-afcc-655eae01bccd")
+	)
+	(wire
+		(pts
+			(xy 30.48 35.56) (xy 34.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab55307-6345-44c8-9ed5-a277a31c01e2")
 	)
 	(wire
 		(pts
@@ -667,17 +677,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 35.56) (xy 24.13 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54f49002-e0cf-4d20-913b-0140675c47aa")
-	)
-	(wire
-		(pts
-			(xy 24.13 41.91) (xy 24.13 44.45)
+			(xy 30.48 41.91) (xy 30.48 44.45)
 		)
 		(stroke
 			(width 0)
@@ -687,17 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 35.56) (xy 24.13 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "756ae0f7-15c8-4a8e-9c60-5c25929cd997")
-	)
-	(wire
-		(pts
-			(xy 24.13 35.56) (xy 25.4 35.56)
+			(xy 21.59 35.56) (xy 22.86 35.56)
 		)
 		(stroke
 			(width 0)
@@ -707,7 +697,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 35.56) (xy 34.29 35.56)
+			(xy 27.94 35.56) (xy 30.48 35.56)
 		)
 		(stroke
 			(width 0)
@@ -724,6 +714,16 @@
 			(type default)
 		)
 		(uuid "a754bb11-1a99-4445-9f0b-d2ec728016ce")
+	)
+	(wire
+		(pts
+			(xy 30.48 35.56) (xy 30.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ef8637-70b9-4468-803b-b0fc8df39f66")
 	)
 	(wire
 		(pts
@@ -828,7 +828,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 27.94 35.56 270)
+		(at 25.4 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -836,7 +836,7 @@
 		(dnp no)
 		(uuid "08c69633-9055-44fc-90a3-2ae051770360")
 		(property "Reference" "R1"
-			(at 27.94 37.338 90)
+			(at 25.4 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,7 +844,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 27.94 33.782 90)
+			(at 25.4 33.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,7 +852,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 27.94 35.56 0)
+			(at 25.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +861,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 35.56 0)
+			(at 25.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +870,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 27.94 35.56 0)
+			(at 25.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1217,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 24.13 39.37 180)
+		(at 30.48 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1225,7 +1225,7 @@
 		(dnp no)
 		(uuid "45a59f3b-c19f-4149-9658-5fcd0ab2c6ad")
 		(property "Reference" "R2"
-			(at 22.352 39.37 90)
+			(at 28.702 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1233,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 25.908 39.37 90)
+			(at 32.258 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1241,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 24.13 39.37 0)
+			(at 30.48 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,7 +1250,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 39.37 0)
+			(at 30.48 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1259,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 24.13 39.37 0)
+			(at 30.48 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +1284,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 44.45 0)
+		(at 30.48 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1292,7 +1292,7 @@
 		(dnp no)
 		(uuid "88c1959b-d8d8-4593-adef-b8797f8800ff")
 		(property "Reference" "#PWR029"
-			(at 24.13 50.8 0)
+			(at 30.48 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 48.26 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +1309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

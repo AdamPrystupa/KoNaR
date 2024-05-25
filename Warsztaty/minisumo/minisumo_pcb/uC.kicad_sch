@@ -1464,6 +1464,247 @@
 				)
 			)
 		)
+		(symbol "MTSW-103-23-F-S-235:MTSW-103-23-F-S-235"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -8.12 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MTSW-103-23-F-S-235"
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MTSW-103-23-F-S-235:SAMTEC_MTSW-103-23-F-S-235"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Samtec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nConnector Header Through Hole 3 position 0.100 (2.54mm)\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MTSW-103-23-F-S-235/Samtec/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MTSW-103-23-F-S-235/Samtec/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MTSW-103-23-F-S-235"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3579166&manufacturer=Samtec&part_name=MTSW-103-23-F-S-235&search_term=mtsw-103-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samtec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MTSW-103-23-F-S-235_0_0"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SKHLAAA010:SKHLAAA010"
 			(pin_names
 				(offset 1.016)
@@ -2138,8 +2379,30 @@
 		(uuid "e1b4fc67-499e-4d6d-8dcd-37c6afff2a19")
 	)
 	(no_connect
+		(at 50.8 43.18)
+		(uuid "640805d1-c699-4014-a4dc-de591d7d0ab9")
+	)
+	(no_connect
+		(at 50.8 45.72)
+		(uuid "a6649413-8b42-4aad-8ef0-cc0374067d70")
+	)
+	(no_connect
 		(at 81.28 66.04)
 		(uuid "be5c741f-5983-4b4b-8ca5-35a0acb72aa2")
+	)
+	(no_connect
+		(at 50.8 40.64)
+		(uuid "c9853ef1-e658-4ca1-ba22-164f4550bf73")
+	)
+	(wire
+		(pts
+			(xy 95.25 110.49) (xy 95.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024eed3d-eaeb-4bb2-a7bf-8922c86892b8")
 	)
 	(wire
 		(pts
@@ -2290,6 +2553,16 @@
 			(type default)
 		)
 		(uuid "2b06bb96-a745-4dea-bc58-5fa0fcfe03d1")
+	)
+	(wire
+		(pts
+			(xy 96.52 102.87) (xy 91.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d940f0a-894a-40f5-8ada-38241d3503ac")
 	)
 	(wire
 		(pts
@@ -2563,6 +2836,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 105.41) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6eb7a2d-d0a5-4b6f-b245-9a574fedb6c0")
+	)
+	(wire
+		(pts
 			(xy 49.53 78.74) (xy 50.8 78.74)
 		)
 		(stroke
@@ -2570,6 +2853,16 @@
 			(type default)
 		)
 		(uuid "a79e2100-42fd-4a8c-a57c-315c3ade4bc4")
+	)
+	(wire
+		(pts
+			(xy 90.17 105.41) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9d9b97-8718-40fc-9faf-a40129df3b17")
 	)
 	(wire
 		(pts
@@ -2583,6 +2876,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 71.12) (xy 50.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ef41d6-15ac-482b-800f-81ccca771928")
+	)
+	(wire
+		(pts
 			(xy 81.28 83.82) (xy 86.36 83.82)
 		)
 		(stroke
@@ -2590,6 +2893,16 @@
 			(type default)
 		)
 		(uuid "b8faa98f-d3e0-4474-b7b8-ccc41498de5e")
+	)
+	(wire
+		(pts
+			(xy 95.25 107.95) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9327a72-6b1a-4949-ae44-b3c8f7845cd1")
 	)
 	(wire
 		(pts
@@ -2680,6 +2993,16 @@
 			(type default)
 		)
 		(uuid "d4687a28-edcd-4813-bd88-6a1ea0eb1ffa")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 91.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7644840-28fe-40aa-a1ff-b6ceff77d362")
 	)
 	(wire
 		(pts
@@ -2830,6 +3153,29 @@
 		)
 		(uuid b4f40c5e-d3d1-4621-8282-ab4e29b68ae7)
 	)
+	(rectangle
+		(start 86.36 93.98)
+		(end 121.92 119.38)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 133 81 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e6518225-2d64-49e0-838d-a37f5a93b099)
+	)
+	(text "Starter connector\n"
+		(exclude_from_sim no)
+		(at 111.76 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2cb94f33-7242-4706-a88a-d0c48fb1f66b")
+	)
 	(text "Microcontroller\n"
 		(exclude_from_sim no)
 		(at 23.622 17.78 0)
@@ -2853,6 +3199,28 @@
 		(uuid "11908f5a-e4dc-4275-8aa3-a6f2676549e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.7066 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STARTER"
+		(shape input)
+		(at 95.25 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "38f113ee-4915-407b-8806-8e86ae6e3b93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 117.0348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,9 +3296,9 @@
 			)
 		)
 	)
-	(hierarchical_label "GPIO1_2"
+	(global_label "STARTER"
 		(shape input)
-		(at 50.8 43.18 180)
+		(at 49.53 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2938,7 +3306,17 @@
 			)
 			(justify right)
 		)
-		(uuid "086648e3-c693-4a1e-a334-f12ad95a2c08")
+		(uuid "d514cfd7-240f-45c6-a936-31b1b4535277")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.9852 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "DIRB_2"
 		(shape input)
@@ -3060,18 +3438,6 @@
 		)
 		(uuid "55586b4a-1ecd-4c49-ad9d-19952e378bbc")
 	)
-	(hierarchical_label "GPIO1_3"
-		(shape input)
-		(at 50.8 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "59a09ac4-d275-4225-a7ec-fcf798b51a25")
-	)
 	(hierarchical_label "LS1"
 		(shape input)
 		(at 50.8 63.5 180)
@@ -3120,9 +3486,9 @@
 		)
 		(uuid "8d92322b-2a3d-41f5-ad31-682b8c140b51")
 	)
-	(hierarchical_label "GPIO1_1"
+	(hierarchical_label "LS3"
 		(shape input)
-		(at 50.8 40.64 180)
+		(at 50.8 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3130,19 +3496,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a62ddad9-5b05-4438-a8fe-b4fd515a813e")
-	)
-	(hierarchical_label "GPIO1_4"
-		(shape input)
-		(at 50.8 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "b2e9cf3d-3202-4476-9447-a0751b70177f")
+		(uuid "aba931d4-1560-4249-91af-dfa3900bb01d")
 	)
 	(hierarchical_label "XSHUT_4"
 		(shape input)
@@ -4642,7 +4996,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "1k"
 			(at 34.29 110.998 90)
 			(effects
 				(font
@@ -4717,7 +5071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 27.94 100.33 90)
 			(effects
 				(font
@@ -4891,6 +5245,201 @@
 		)
 	)
 	(symbol
+		(lib_id "MTSW-103-23-F-S-235:MTSW-103-23-F-S-235")
+		(at 109.22 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90c1c7e4-688e-423b-bf8f-c843fb91a0da")
+		(property "Reference" "J2"
+			(at 118.11 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MTSW-103-23-F-S-235"
+			(at 118.11 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MTSW-103-23-F-S-235:SAMTEC_MTSW-103-23-F-S-235"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nConnector Header Through Hole 3 position 0.100 (2.54mm)\n"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MTSW-103-23-F-S-235/Samtec/view-part/?ref=eda"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MTSW-103-23-F-S-235/Samtec/view-part/?ref=snap"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MTSW-103-23-F-S-235"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3579166&manufacturer=Samtec&part_name=MTSW-103-23-F-S-235&search_term=mtsw-103-"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "01"
+			(uuid "9e08ea40-d37f-4d0b-9dd6-170926095f7f")
+		)
+		(pin "02"
+			(uuid "1181ccae-92b1-4cb0-8be1-1141620ef0ac")
+		)
+		(pin "03"
+			(uuid "6a99713f-e2a7-4d10-86f5-64d834bae7ac")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 27.94 109.22 0)
 		(unit 1)
@@ -4915,7 +5464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 27.94 109.22 90)
 			(effects
 				(font
@@ -4952,6 +5501,72 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb67d9de-dca8-4f03-877c-6b528de4fd62")
+		(property "Reference" "#PWR034"
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19b807df-7ae5-464a-afb9-b9aada146e78")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5040,7 +5655,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "1k"
 			(at 34.29 102.108 90)
 			(effects
 				(font
@@ -5150,6 +5765,72 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed54e57e-7605-4a65-9f26-c8c74009105e")
+		(property "Reference" "#PWR033"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "916854ed-6d6a-49cb-99ce-ecabed2a8e5c")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/2841fc75-29f5-4e06-b481-1d26a5df72c5"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)

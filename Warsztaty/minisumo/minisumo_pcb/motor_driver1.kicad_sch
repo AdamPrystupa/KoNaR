@@ -815,32 +815,38 @@
 				)
 			)
 		)
-		(symbol "Motors_KoNaR:Motor"
+		(symbol "HTSW-102-08-L-S:HTSW-102-08-L-S"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "M"
-				(at 0 3.556 0)
+			(property "Reference" "J"
+				(at -5.08 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "HTSW-102-08-L-S"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "HTSW-102-08-L-S:SAMTEC_HTSW-102-08-L-S"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Footprint" "Motors_KoNaR:Motor"
-				(at 0 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -862,58 +868,140 @@
 					(hide yes)
 				)
 			)
-			(symbol "Motor_1_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
+			(property "MF" "Samtec Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nConn Unshrouded Header HDR 2 POS 2.54mm Solder ST Top Entry Thru-Hole Bag\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/HTSW-102-08-L-S/Samtec/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/HTSW-102-08-L-S/Samtec/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "HTSW-102-08-L-S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://pricing.snapeda.com/search/part/HTSW-102-25-G-S/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "HTSW-102-08-L-S_0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(text "M"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "01"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "01"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "02"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "02"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1270,6 +1358,12 @@
 		(uuid "0693c2ef-bb5b-4f27-a5a9-ab62e255a4e9")
 	)
 	(junction
+		(at 74.93 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ae6917e-809a-4f31-aa55-b8f46263dd55")
+	)
+	(junction
 		(at 31.75 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1300,22 +1394,16 @@
 		(uuid "5033984f-501d-4fc6-9d5e-af9c6419b1a9")
 	)
 	(junction
-		(at 72.39 45.72)
+		(at 72.39 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72018d6d-37e7-42ba-b1c0-a2982857d073")
+		(uuid "51aab94c-7599-45f5-9763-602b085f5cc7")
 	)
 	(junction
 		(at 60.96 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "794bff87-3b83-4322-8434-9d2524b6ac26")
-	)
-	(junction
-		(at 74.93 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a79b816-3dc7-4c95-a713-b1b4f4d8cea3")
 	)
 	(junction
 		(at 30.48 58.42)
@@ -1359,16 +1447,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 38.1) (xy 72.39 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0861f57f-1c90-4b32-a64f-8fb76da5d0d2")
-	)
-	(wire
-		(pts
 			(xy 30.48 53.34) (xy 30.48 58.42)
 		)
 		(stroke
@@ -1379,7 +1457,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 43.18) (xy 74.93 55.88)
+			(xy 74.93 43.18) (xy 74.93 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1439,16 +1517,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 45.72) (xy 83.82 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b504aeb-ba77-465d-8467-223c525d5fd5")
-	)
-	(wire
-		(pts
 			(xy 45.72 73.66) (xy 55.88 73.66)
 		)
 		(stroke
@@ -1486,6 +1554,16 @@
 			(type default)
 		)
 		(uuid "31533d34-5d19-437d-8365-b3c61c98ac7e")
+	)
+	(wire
+		(pts
+			(xy 72.39 49.53) (xy 80.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a1d1a7-b439-4ac4-9519-32c6fc32502e")
 	)
 	(wire
 		(pts
@@ -1566,6 +1644,46 @@
 			(type default)
 		)
 		(uuid "561aba92-d0d5-4f05-876f-42a79717c9d1")
+	)
+	(wire
+		(pts
+			(xy 72.39 38.1) (xy 72.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59164220-b10d-4f49-a989-9de8d9619870")
+	)
+	(wire
+		(pts
+			(xy 74.93 52.07) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba12272-814b-4a0d-a854-48982a988abe")
+	)
+	(wire
+		(pts
+			(xy 72.39 49.53) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a80062-cd07-481e-aa2a-f2f0cea616db")
+	)
+	(wire
+		(pts
+			(xy 74.93 52.07) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6622a590-8286-42df-8882-f5938c9ab024")
 	)
 	(wire
 		(pts
@@ -1656,16 +1774,6 @@
 			(type default)
 		)
 		(uuid "8cd5b055-c9a3-49ff-b74a-9b47ef612b8a")
-	)
-	(wire
-		(pts
-			(xy 72.39 45.72) (xy 72.39 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dc2c75d-2b7d-4dc1-86ff-fe0d73d703ed")
 	)
 	(wire
 		(pts
@@ -1839,16 +1947,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 55.88) (xy 83.82 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb8ee48-15ca-4deb-9cbc-53710a2fe142")
-	)
-	(wire
-		(pts
 			(xy 60.96 21.59) (xy 58.42 21.59)
 		)
 		(stroke
@@ -1879,7 +1977,7 @@
 	)
 	(rectangle
 		(start 13.97 13.97)
-		(end 95.25 82.55)
+		(end 97.79 82.55)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1901,22 +1999,22 @@
 		(uuid "332524cb-71d2-4abc-a572-034fa9ccc979")
 	)
 	(label "MOTOR_IN1"
-		(at 76.2 45.72 0)
+		(at 76.2 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.762 0.762)
 			)
 			(justify left bottom)
 		)
 		(uuid "5848f646-86eb-459f-ba7c-00fee0778ba7")
 	)
 	(label "MOTOR_IN2"
-		(at 76.2 55.88 0)
+		(at 76.2 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.762 0.762)
 			)
 			(justify left bottom)
 		)
@@ -2291,6 +2389,167 @@
 		)
 	)
 	(symbol
+		(lib_id "HTSW-102-08-L-S:HTSW-102-08-L-S")
+		(at 90.17 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22391c95-0405-40a2-9dfe-aa2986c1edb1")
+		(property "Reference" "M1"
+			(at 89.408 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HTSW-102-08-L-S"
+			(at 76.962 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HTSW-102-08-L-S:SAMTEC_HTSW-102-08-L-S"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec Inc."
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nConn Unshrouded Header HDR 2 POS 2.54mm Solder ST Top Entry Thru-Hole Bag\n"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/HTSW-102-08-L-S/Samtec/view-part/?ref=eda"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HTSW-102-08-L-S/Samtec/view-part/?ref=snap"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "HTSW-102-08-L-S"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/HTSW-102-25-G-S/?ref=eda"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "02"
+			(uuid "c24b86b2-72b2-4d21-bb54-ea1a92a99866")
+		)
+		(pin "01"
+			(uuid "ea85ed50-d6c5-48ed-a201-daf1bd83c571")
+		)
+		(instances
+			(project "minisumo_pcb"
+				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6ae141c6-db4a-4bb1-a0f3-35ba0e4d6945"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 31.75 30.48 0)
 		(mirror y)
@@ -2309,7 +2568,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 37.084 28.702 0)
 			(effects
 				(font
@@ -2425,76 +2684,6 @@
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6ae141c6-db4a-4bb1-a0f3-35ba0e4d6945"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motors_KoNaR:Motor")
-		(at 83.82 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99592e26-5b84-4620-89a8-5571debbaa22")
-		(property "Reference" "M1"
-			(at 87.63 50.1649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 87.63 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Motors_KoNaR:KoNaR_Motor"
-			(at 87.884 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfec8184-4831-413a-a0c8-9eb436744ce7")
-		)
-		(pin "2"
-			(uuid "1ec218ec-c35a-4bfc-ae1b-a7bab66449b8")
-		)
-		(instances
-			(project "minisumo_pcb"
-				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/6ae141c6-db4a-4bb1-a0f3-35ba0e4d6945"
-					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -2650,7 +2839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 67.056 27.432 0)
 			(effects
 				(font

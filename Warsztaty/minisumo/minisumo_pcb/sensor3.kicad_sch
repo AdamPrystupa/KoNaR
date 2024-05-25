@@ -630,10 +630,10 @@
 		)
 	)
 	(junction
-		(at 24.13 35.56)
+		(at 30.48 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d93985f2-7685-41c2-ad27-0197f77fc0e8")
+		(uuid "9d6cbf93-5fce-48a3-9a6b-d0c6ad4f8a33")
 	)
 	(wire
 		(pts
@@ -657,16 +657,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 35.56) (xy 25.4 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27a43d25-bc8c-4f41-af1f-e6381347f5f0")
-	)
-	(wire
-		(pts
 			(xy 59.69 35.56) (xy 60.96 35.56)
 		)
 		(stroke
@@ -674,6 +664,26 @@
 			(type default)
 		)
 		(uuid "2bcf09b2-3e9f-469b-bc0e-8402b88a0619")
+	)
+	(wire
+		(pts
+			(xy 30.48 35.56) (xy 30.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43014ac1-6b14-492c-8f90-1db431a6fd47")
+	)
+	(wire
+		(pts
+			(xy 30.48 35.56) (xy 34.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5f5051-e426-47d7-b678-db17572d6606")
 	)
 	(wire
 		(pts
@@ -687,7 +697,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 35.56) (xy 24.13 35.56)
+			(xy 20.32 35.56) (xy 21.59 35.56)
 		)
 		(stroke
 			(width 0)
@@ -697,7 +707,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 41.91) (xy 24.13 44.45)
+			(xy 30.48 41.91) (xy 30.48 44.45)
 		)
 		(stroke
 			(width 0)
@@ -717,23 +727,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 35.56) (xy 34.29 35.56)
+			(xy 26.67 35.56) (xy 30.48 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6d27dbe7-2bc2-4317-8b27-c47196b21635")
-	)
-	(wire
-		(pts
-			(xy 24.13 35.56) (xy 24.13 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4e7388b-3d36-4a1a-89e7-27de6bf8a79b")
 	)
 	(wire
 		(pts
@@ -828,7 +828,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 44.45 0)
+		(at 30.48 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -836,7 +836,7 @@
 		(dnp no)
 		(uuid "0aef282a-bc1b-4c3d-ac6f-53831da7327c")
 		(property "Reference" "#PWR031"
-			(at 24.13 50.8 0)
+			(at 30.48 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 48.26 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 44.45 0)
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -893,7 +893,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 27.94 35.56 270)
+		(at 24.13 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -901,7 +901,7 @@
 		(dnp no)
 		(uuid "2a186d98-7483-4a7b-ad1c-44d161d20af1")
 		(property "Reference" "R10"
-			(at 27.94 37.338 90)
+			(at 24.13 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +909,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 27.94 33.782 90)
+			(at 24.13 33.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +917,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 27.94 35.56 0)
+			(at 24.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,7 +926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 35.56 0)
+			(at 24.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +935,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 27.94 35.56 0)
+			(at 24.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +960,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 24.13 39.37 180)
+		(at 30.48 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -968,7 +968,7 @@
 		(dnp no)
 		(uuid "4afeb57d-611d-47fe-9717-bbb3ae5415ea")
 		(property "Reference" "R9"
-			(at 22.352 39.37 90)
+			(at 28.702 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +976,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 25.908 39.37 90)
+			(at 32.258 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +984,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 24.13 39.37 0)
+			(at 30.48 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +993,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 39.37 0)
+			(at 30.48 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1002,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 24.13 39.37 0)
+			(at 30.48 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
