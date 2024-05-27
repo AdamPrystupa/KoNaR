@@ -1533,7 +1533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29d2dce6-b17f-4b95-984f-f6f71ed28f29")
-		(property "Reference" "U11"
+		(property "Reference" "LS1"
 			(at 41.91 57.15 0)
 			(effects
 				(font
@@ -1592,7 +1592,7 @@
 		(instances
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/58eb88b1-485d-48c7-98a0-3f1f875455f5"
-					(reference "U11")
+					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -1607,7 +1607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3185da35-7ff8-41a6-9ed0-2f6c64db4c15")
-		(property "Reference" "U10"
+		(property "Reference" "LS2"
 			(at 41.91 43.18 0)
 			(effects
 				(font
@@ -1666,7 +1666,7 @@
 		(instances
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/58eb88b1-485d-48c7-98a0-3f1f875455f5"
-					(reference "U10")
+					(reference "LS2")
 					(unit 1)
 				)
 			)
@@ -1681,7 +1681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86a34098-bedd-4b41-8eae-9e4f182ba16b")
-		(property "Reference" "U3"
+		(property "Reference" "LS3"
 			(at 41.91 30.48 0)
 			(effects
 				(font
@@ -1740,7 +1740,7 @@
 		(instances
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/58eb88b1-485d-48c7-98a0-3f1f875455f5"
-					(reference "U3")
+					(reference "LS3")
 					(unit 1)
 				)
 			)

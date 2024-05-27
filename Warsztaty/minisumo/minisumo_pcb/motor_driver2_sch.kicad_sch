@@ -2829,7 +2829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb3e16d-84a5-4e11-a30d-71c06085a4cd")
-		(property "Reference" "U14"
+		(property "Reference" "M_DRIVER2"
 			(at 63.1541 71.12 0)
 			(effects
 				(font
@@ -2949,7 +2949,7 @@
 		(instances
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/da52437e-b83d-4b13-8d2c-d0930bef3ed5"
-					(reference "U14")
+					(reference "M_DRIVER2")
 					(unit 1)
 				)
 			)

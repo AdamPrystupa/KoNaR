@@ -1100,7 +1100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9daeda4f-4e59-44ae-9e49-98f29452bded")
-		(property "Reference" "SPI5"
+		(property "Reference" "ES4"
 			(at 46.99 26.416 0)
 			(effects
 				(font
@@ -1276,7 +1276,7 @@
 		(instances
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/fd8559db-718b-46e4-b9e8-fb43a36357b7"
-					(reference "SPI5")
+					(reference "ES4")
 					(unit 1)
 				)
 			)

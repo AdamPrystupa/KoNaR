@@ -657,7 +657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c9daf96-43bb-43a5-a817-8c51e1e2e6ba")
-		(property "Reference" "SPI1"
+		(property "Reference" "Prog_Con1"
 			(at 46.99 26.416 0)
 			(effects
 				(font
@@ -833,7 +833,7 @@
 		(instances
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/d44754c4-1248-482d-a92b-4192f4f09fb1"
-					(reference "SPI1")
+					(reference "Prog_Con1")
 					(unit 1)
 				)
 			)

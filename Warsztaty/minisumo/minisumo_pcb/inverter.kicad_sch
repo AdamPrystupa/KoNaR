@@ -930,7 +930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19ba6817-c79f-4d4a-ade1-15111fdd3894")
-		(property "Reference" "U1"
+		(property "Reference" "INVERTER1"
 			(at 41.5641 25.4 0)
 			(effects
 				(font
@@ -996,7 +996,7 @@
 		(instances
 			(project "minisumo_pcb"
 				(path "/7b99a4ad-c15f-48f5-acdf-b2b295c8ee3b/b8d919d3-78c3-4a57-ab4a-a567d8eddd6d"
-					(reference "U1")
+					(reference "INVERTER1")
 					(unit 1)
 				)
 			)
