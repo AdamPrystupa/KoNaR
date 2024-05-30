@@ -494,10 +494,10 @@
       "gencad": "minisumo_pcb.cad",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/pryst/Downloads/",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "minisumo_pcb.step",
+      "step": "../model/minisumo_pcb.step",
       "svg": "",
       "vrml": "minisumo_pcb.wrl"
     },
