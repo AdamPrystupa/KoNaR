@@ -802,7 +802,7 @@
 		)
 		(uuid "1acae9f2-fbf1-4f2b-b5e0-4ae0aa6f75b4")
 	)
-	(hierarchical_label "X2"
+	(hierarchical_label "XSHUT_2"
 		(shape input)
 		(at 21.59 35.56 180)
 		(fields_autoplaced yes)

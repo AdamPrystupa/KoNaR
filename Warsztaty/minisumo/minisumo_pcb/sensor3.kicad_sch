@@ -778,7 +778,7 @@
 		)
 		(uuid "b29aa378-ed11-4519-a6b4-7fc9cf5fabba")
 	)
-	(hierarchical_label "X3"
+	(hierarchical_label "XSHUT_3"
 		(shape input)
 		(at 20.32 35.56 180)
 		(fields_autoplaced yes)

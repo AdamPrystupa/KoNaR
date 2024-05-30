@@ -1075,16 +1075,6 @@
 			)
 			(uuid "d96559dd-a9bc-46c9-8cb0-66fdf852771e")
 		)
-		(pin "X2" input
-			(at 105.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6f473402-8517-4c7c-a9eb-a3ef5c551dc7")
-		)
 		(pin "SCL" input
 			(at 105.41 81.28 0)
 			(effects
@@ -1094,6 +1084,16 @@
 				(justify right)
 			)
 			(uuid "4e753c55-e27c-48b2-b7cb-3038b92c4d04")
+		)
+		(pin "XSHUT_2" input
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8cc3eaee-fbc2-4aa0-86b9-36419996b1b4")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1153,16 +1153,6 @@
 			)
 			(uuid "a8d551cd-bd62-4704-ab43-3b59a48e5129")
 		)
-		(pin "X1" input
-			(at 105.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "26bcb3cc-f655-4d12-8da5-d569ace7b512")
-		)
 		(pin "SDA" input
 			(at 105.41 64.77 0)
 			(effects
@@ -1172,6 +1162,16 @@
 				(justify right)
 			)
 			(uuid "257fa4ae-8333-4630-9fc1-a0d62fc0a885")
+		)
+		(pin "XSHUT_1" input
+			(at 105.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2ef0fd29-3787-49a8-bc9c-13f3b3a09441")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1347,16 +1347,6 @@
 				(justify left top)
 			)
 		)
-		(pin "X3" input
-			(at 105.41 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cb331224-e53d-4f5c-befd-7aee6f4bc817")
-		)
 		(pin "SDA" input
 			(at 105.41 101.6 0)
 			(effects
@@ -1386,6 +1376,16 @@
 				(justify right)
 			)
 			(uuid "b7dc5b21-8620-47d8-b0c4-15963ea9aa7d")
+		)
+		(pin "XSHUT_3" input
+			(at 105.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0dab062d-9364-4267-aca3-3f6d9f0d0b3f")
 		)
 		(instances
 			(project "minisumo_pcb"
@@ -1669,16 +1669,6 @@
 			)
 			(uuid "19c3397a-1e37-465b-be33-32ed5ac26316")
 		)
-		(pin "X4" input
-			(at 105.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9afd3548-8b5e-446b-adcf-ef0499caf2ab")
-		)
 		(pin "SCL" input
 			(at 105.41 118.11 0)
 			(effects
@@ -1688,6 +1678,16 @@
 				(justify right)
 			)
 			(uuid "4547dfa8-f2bb-4d2d-93aa-be30da14ba63")
+		)
+		(pin "XSHUT_4" input
+			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "300a0be5-720f-4006-aeb3-d1c767240954")
 		)
 		(instances
 			(project "minisumo_pcb"
